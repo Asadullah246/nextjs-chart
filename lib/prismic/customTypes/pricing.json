@@ -1,0 +1,334 @@
+{
+  "id": "pricing",
+  "label": "Pricing",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": null,
+          "choices": {
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            },
+            "faq": {
+              "type": "Slice",
+              "fieldset": "FAQ",
+              "description": "Frequently asked questions",
+              "icon": "record_voice_over",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "more_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "More text"
+                  }
+                }
+              },
+              "repeat": {
+                "faq_item": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["faq_item"],
+                    "label": "FAQ Item"
+                  }
+                }
+              }
+            },
+            "intro": {
+              "type": "Slice",
+              "fieldset": "Intro",
+              "description": "Intro",
+              "icon": "format_color_text",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": { "single": "heading1", "label": "Title" }
+                },
+                "quote_rich": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "quote_rich"
+                  }
+                },
+                "quote_link": {
+                  "type": "Link",
+                  "config": { "allowTargetBlank": true, "label": "Quote Link", "select": null }
+                },
+                "quote_link_text": { "type": "Text", "config": { "label": "Quote Link Text" } },
+                "quote_image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Quote image" }
+                }
+              },
+              "repeat": {}
+            },
+            "comparison": {
+              "type": "Slice",
+              "fieldset": "Comparison",
+              "description": "Comparison",
+              "icon": "compare_arrows",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "untied_banks_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Untied Banks Title"
+                  }
+                },
+                "untied_banks_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Untied Banks Footer"
+                  }
+                },
+                "untied_true_wealth_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Untied True Wealth Footer"
+                  }
+                },
+                "untied_others_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Untied Others Title"
+                  }
+                },
+                "untied_others_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Untied Others Footer"
+                  }
+                },
+                "s3a_retirement_funds_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "S3A Retirement Funds Title"
+                  }
+                },
+                "s3a_retirement_funds_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "S3A Retirement Funds Footer"
+                  }
+                },
+                "s3a_true_wealth_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "S3A True Wealth Footer"
+                  }
+                },
+                "s3a_others_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "S3A Others Title"
+                  }
+                },
+                "s3a_others_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "S3A Others Footer"
+                  }
+                },
+                "child_portfolio_funds_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Child Portfolio Funds Title"
+                  }
+                },
+                "child_portfolio_funds_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Child Portfolio Funds Footer"
+                  }
+                },
+                "child_portfolio_true_wealth_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Child Portfolio True Wealth Footer"
+                  }
+                },
+                "child_portfolio_others_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Child Portfolio Others Title"
+                  }
+                },
+                "child_portfolio_others_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Child Portfolio Others Footer"
+                  }
+                }
+              },
+              "repeat": {
+                "label": { "type": "Text", "config": { "label": "Label" } },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                },
+                "tick": {
+                  "type": "Boolean",
+                  "config": { "default_value": false, "label": "Tick" }
+                },
+                "category": {
+                  "type": "Select",
+                  "config": {
+                    "options": [
+                      "Untied Banks",
+                      "Untied True Wealth",
+                      "Untied Others",
+                      "S3A Retirement Funds",
+                      "S3A True Wealth",
+                      "S3A Others",
+                      "Child Portfolio Banks",
+                      "Child Portfolio True Wealth",
+                      "Child Portfolio Others"
+                    ],
+                    "label": "Category"
+                  }
+                }
+              }
+            },
+            "blog_posts": {
+              "type": "Slice",
+              "fieldset": "Blog Posts",
+              "description": "Blog Posts",
+              "icon": "add_circle_outline",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {
+                "blog_post": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["blog_post"],
+                    "label": "Blog Post"
+                  }
+                }
+              }
+            },
+            "fee_details": {
+              "type": "Slice",
+              "fieldset": "Fee Details",
+              "description": "Fees in detail",
+              "icon": "assignment_late",
+              "display": "list",
+              "non-repeat": {
+                "section_title": { "type": "Text", "config": { "label": "Section Title" } },
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "allowTargetBlank": true,
+                    "label": "Intro"
+                  }
+                },
+                "payment_title": { "type": "Text", "config": { "label": "Payment Title" } },
+                "fee_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "allowTargetBlank": true,
+                    "label": "Fee Content"
+                  }
+                },
+                "ter_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "allowTargetBlank": true,
+                    "label": "TER Content"
+                  }
+                },
+                "payment_footer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "allowTargetBlank": true,
+                    "label": "Payment Footer"
+                  }
+                },
+                "save_money_title": { "type": "Text", "config": { "label": "Save Money Title" } },
+                "fees_table_title": { "type": "Text", "config": { "label": "Fees Table Title" } }
+              },
+              "repeat": {
+                "image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "allowTargetBlank": true,
+                    "label": "Content"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": {
+          "constraint": { "width": 1200, "height": 630 },
+          "thumbnails": [],
+          "label": "Social Media Image"
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

@@ -1,0 +1,74 @@
+@import "colorPalette";
+
+/* stylelint-disable function-disallowed-list */
+
+// Primary
+$primaryColor: $zest;
+
+// Text
+$textColor: $zeus;
+
+// Links
+$linkColor: $zeus;
+$linkActiveColor: $zeus;
+$linkHoverColor: $chelseaGem;
+$darkLinkColor: $zeus;
+
+// Backgrounds
+$whiteBackgroundColor: $white;
+$lightBackgroundColor: $dawnPink;
+$pearlBackgroundColor: $pearlBush;
+$sandyBackgroundColor: $sandyPearlBush;
+$whiteToDawnPinkFixedBackgroundImage: linear-gradient($white 415px, $dawnPink 415px);
+$whiteToDawnPink60BackgroundImage: linear-gradient($white 60%, $dawnPink 60%);
+$dawnPink60ToPearl40BackgroundImage: linear-gradient($dawnPink 60%, $pearlBush 60%);
+$pearl60ToDawnPink40BackgroundImage: linear-gradient($pearlBush 60%, $dawnPink 60%);
+$pearl90ToWhite90BackgroundImage: linear-gradient($pearlBush 90%, $white 90%);
+
+// Forms
+$inputFocusBorderColor: $orangePeel;
+$inputErrorBorderColor: $error;
+// Currently stylelint fixer breaks rgba with hex colors:  rgba($zest, 0.25); -> rgb($white 0.3);
+/* stylelint-disable */
+$inputFocusBoxShadowColor: rgba($zest, 0.25);
+$inputErrorBoxShadowColor: rgba($error, 0.25);
+/* stylelint-enable */
+
+// Section
+$sectionHeadingColor: $tobaccoBrown;
+
+// Blog
+$blogOverlayTextColor: $white;
+$blogDetailViewImageBackgroundTextColor: $white;
+$blogDetailViewAuthorSilverTextColor: $silverChalice;
+$blogDetailShareBackgroundColor: $concrete;
+$blogDetailCoverImageBackgroundColor: $alto;
+
+// Homepage Intro
+$introColor: $tobaccoBrown;
+
+// Why True Wealth Page
+$rowNameTextColor: $tobaccoBrown;
+
+// Press Page
+$pressSalientTextColor: $tobaccoBrown;
+
+// How It Works Page
+$timeTextColor: $arrowTown;
+
+// FAQ Page
+$pageTitleContentTextColor: $tobaccoBrown;
+
+// Borders
+$altoBorderColor: $alto;
+$galleryBorderColor: $gallery;
+
+// RGBAs for shadows
+// Currently stylelint fixer breaks rgba with hex colors:  rgba($zest, 0.25); -> rgb($white 0.3);
+/* stylelint-disable */
+$whiteAlpha30: rgba($white, 0.3);
+$blackAlpha10: rgba($black, 0.1);
+$blackAlpha15: rgba($black, 0.15);
+$blackAlpha20: rgba($black, 0.2);
+$blackAlpha30: rgba($black, 0.3);
+/* stylelint-enable */

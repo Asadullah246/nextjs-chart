@@ -1,0 +1,19 @@
+@import "lib/scss/shared";
+
+.introContainer {
+  @include media-breakpoint-up(xl) {
+    margin-top: $spacingBase * 6;
+  }
+}
+
+.intro {
+  @include typography($typographyPBig);
+
+  @include media-breakpoint-up(xl) {
+    padding: $spacingBase * 12 0;
+  }
+
+  p {
+    color: $introColor;
+  }
+}

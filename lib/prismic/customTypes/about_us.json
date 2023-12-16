@@ -1,0 +1,127 @@
+{
+  "id": "about_us",
+  "label": "About us",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display Name"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "about_true_wealth": {
+              "type": "Slice",
+              "fieldset": "About True Wealth",
+              "description": "History of True Wealth and what is it about",
+              "icon": "history",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Title"
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+                }
+              },
+              "repeat": {}
+            },
+            "story": {
+              "type": "Slice",
+              "fieldset": "Story",
+              "description": "Timeline of True Wealth",
+              "icon": "timeline",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {
+                "year": { "type": "Text", "config": { "label": "Year" } },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                }
+              }
+            },
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            },
+            "management_team": {
+              "type": "Slice",
+              "fieldset": "Management Team",
+              "description": "Management Team",
+              "icon": "wc",
+              "display": "grid",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": { "single": "heading2", "label": "Title" }
+                }
+              },
+              "repeat": {
+                "profile_picture": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Profile Picture" }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": { "multi": "paragraph,heading3", "label": "Content" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "hash": "e44c5116ef548712b2953d7c3a10b6c1",
+  "status": true,
+  "format": "custom"
+}

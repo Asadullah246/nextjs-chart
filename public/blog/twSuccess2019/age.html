@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <title>Alter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script>
+      function DrawTheChart(ChartData, ChartOptions, ChartId, ChartType) {
+        eval(
+          'var myLine = new Chart(document.getElementById(ChartId).getContext("2d"),{type:"' +
+            ChartType +
+            '",data:ChartData,options:ChartOptions});document.getElementById(ChartId).getContext("2d").stroke();'
+        );
+      }
+    </script>
+    <style type="text/css">
+      /* Chart.js */
+      @keyframes chartjs-render-animation {
+        from {
+          opacity: 0.99;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .chartjs-render-monitor {
+        animation: chartjs-render-animation 1ms;
+      }
+      .chartjs-size-monitor,
+      .chartjs-size-monitor-expand,
+      .chartjs-size-monitor-shrink {
+        position: absolute;
+        direction: ltr;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        pointer-events: none;
+        visibility: hidden;
+        z-index: -1;
+      }
+      .chartjs-size-monitor-expand > div {
+        position: absolute;
+        width: 1000000px;
+        height: 1000000px;
+        left: 0;
+        top: 0;
+      }
+      .chartjs-size-monitor-shrink > div {
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        left: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body cz-shortcut-listen="true">
+    <div style="max-width: 700px; height: 100%; margin: 0 auto">
+      <div class="chartjs-size-monitor">
+        <div class="chartjs-size-monitor-expand"><div class=""></div></div>
+        <div class="chartjs-size-monitor-shrink"><div class=""></div></div>
+      </div>
+      <canvas
+        id="chart-01"
+        style="
+          background-color: rgb(255, 255, 255);
+          border-radius: 0;
+          width: 100%;
+          height: 400px;
+          padding: 0;
+          display: block;
+        "
+        width="1400"
+        height="800"
+        class="chartjs-render-monitor"
+      ></canvas>
+    </div>
+    <script>
+      const ChartData = {
+        labels: ["18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+        datasets: [
+          {
+            data: [1, 30, 34, 18, 10, 6],
+            backgroundColor: "#ff8a00",
+            borderColor: "#D8D8D8",
+            label: ""
+          }
+        ]
+      };
+      const ChartOptions = {
+        responsive: true,
+        layout: { padding: { top: 12, left: 12, bottom: 12 } },
+        defaultFontSize: 14,
+        scales: {
+          xAxes: [
+            {
+              barPercentage: 0.7,
+              gridLines: { display: false },
+              ticks: { fontSize: 14 }
+            }
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                borderDash: [],
+                zeroLineWidth: 0,
+                tickMarkLength: 10,
+                drawTicks: true,
+                drawBorder: false
+              },
+              ticks: {
+                callback: (value) => value + "%",
+                fontSize: 14
+              }
+            }
+          ]
+        },
+        plugins: {
+          datalabels: { display: false }
+        },
+        legend: { display: false },
+        elements: {
+          arc: {},
+          line: {},
+          rectangle: {
+            borderWidth: -10
+          }
+        },
+        tooltips: {
+          callbacks: {
+            label: (item) => `${item.yLabel}%`
+          }
+        },
+        hover: {
+          mode: "nearest",
+          animationDuration: 300
+        }
+      };
+      DrawTheChart(ChartData, ChartOptions, "chart-01", "bar");
+    </script>
+
+    <div id="pocket-extension-root"><div class="pocket-egasyq"></div></div>
+    <div id="pocket-extension-styles"><style data-emotion="pocket"></style></div>
+  </body>
+</html>

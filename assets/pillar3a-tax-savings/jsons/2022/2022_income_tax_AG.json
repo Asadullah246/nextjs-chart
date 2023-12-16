@@ -1,0 +1,137 @@
+[
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 4000,
+    "Zusätzlich %": 0
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3700,
+    "Zusätzlich %": 1
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3600,
+    "Zusätzlich %": 2
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 4000,
+    "Zusätzlich %": 3
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 4100,
+    "Zusätzlich %": 4
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 4800,
+    "Zusätzlich %": 5
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 7100,
+    "Zusätzlich %": 6
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 8100,
+    "Zusätzlich %": 7
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 9100,
+    "Zusätzlich %": 8
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 11100,
+    "Zusätzlich %": 8.5
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 11100,
+    "Zusätzlich %": 9
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 33300,
+    "Zusätzlich %": 9.5
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 62600,
+    "Zusätzlich %": 10
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 166600,
+    "Zusätzlich %": 10.5
+  },
+  {
+    "Kantons-Id": "19",
+    "Kanton": "AG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 9999999999,
+    "Zusätzlich %": 11
+  }
+]

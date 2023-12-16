@@ -1,0 +1,75 @@
+@import "lib/scss/shared";
+
+.author {
+  margin-bottom: $spacingBase * 2;
+
+  span + span {
+    margin-left: $spacingBase * 1.5;
+    padding-left: $spacingBase * 1.5;
+    border-left: $altoBorderColor 1px solid;
+  }
+}
+
+.content {
+  padding: $spacingBase * 3;
+
+  @include media-breakpoint-up(sm) {
+    padding: $spacingBase * 7;
+  }
+
+  a {
+    @include typography($typographyPBig);
+
+    font-weight: $fontWeightMedium;
+    padding: $spacingBase;
+    margin-left: -$spacingBase;
+  }
+}
+
+.linkOverlay {
+  position: absolute;
+  inset: 0;
+}
+
+.cardGroup {
+  display: flex;
+  gap: $spacingBase * 5;
+
+  @include media-breakpoint-up(xl) {
+    justify-content: center;
+  }
+}
+
+.cardContent {
+  @include typography($typographyPMedium);
+
+  padding: $spacingBase * 4;
+}
+
+.coverImage {
+  position: relative;
+  width: 100%;
+
+  @include media-breakpoint-up(lg) {
+    width: 400px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.coverImageOverlayText {
+  @include typography($typographyH3);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: $white;
+  min-width: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: $fontWeightMedium;
+}

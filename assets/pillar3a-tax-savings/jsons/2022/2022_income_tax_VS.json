@@ -1,0 +1,262 @@
+[
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 5000,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 10000,
+    "Zusätzlich %": 2.8,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 20000,
+    "Zusätzlich %": 4.6,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 30000,
+    "Zusätzlich %": 6.3,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 40000,
+    "Zusätzlich %": 7.7,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 50000,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 60000,
+    "Zusätzlich %": 10.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 70000,
+    "Zusätzlich %": 11.8,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 80000,
+    "Zusätzlich %": 13,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 90000,
+    "Zusätzlich %": 13.3,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 100000,
+    "Zusätzlich %": 13.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 200000,
+    "Zusätzlich %": 14,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 5000,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 10000,
+    "Zusätzlich %": 2.7,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 15000,
+    "Zusätzlich %": 3.6,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 20000,
+    "Zusätzlich %": 4.4,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 30000,
+    "Zusätzlich %": 5.8,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 40000,
+    "Zusätzlich %": 6.8,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 50000,
+    "Zusätzlich %": 7.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 60000,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 80000,
+    "Zusätzlich %": 8.8,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 90000,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 180000,
+    "Zusätzlich %": 9.9,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "23",
+    "Kanton": "VS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Gemeinde",
+    "Steuerbares Einkommen CHF": 200000,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 0
+  }
+]

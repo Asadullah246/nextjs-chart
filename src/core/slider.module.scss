@@ -1,0 +1,108 @@
+@import "lib/scss/shared";
+
+.label {
+  @include media-breakpoint-up(md) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  strong {
+    font-weight: $fontWeightMedium;
+  }
+}
+
+.value strong {
+  @include typography($typographyH3);
+
+  margin-right: $spacingBase;
+}
+
+.slider {
+  // Global styles from rc-slider
+  // Most of the original code was adapated/removed to match our custom design
+
+  :global(.rc-slider) {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    touch-action: none;
+    /* stylelint-disable-next-line */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0%);
+  }
+
+  :global(.rc-slider *) {
+    /* stylelint-disable-next-line */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0%);
+  }
+
+  :global(.rc-slider-rail) {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    /* stylelint-disable-next-line */
+    background-color: #d2ceca;
+  }
+
+  :global(.rc-slider-track) {
+    position: absolute;
+    height: 4px;
+    background-color: $zest;
+  }
+
+  :global(.rc-slider-handle) {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: $zest;
+    border-radius: 50%;
+    cursor: grab;
+    touch-action: pan-x;
+  }
+
+  :global(.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging) {
+    box-shadow: 0 0 5px $zest;
+  }
+
+  :global(.rc-slider-handle:focus) {
+    outline: none;
+    box-shadow: none;
+  }
+
+  :global(.rc-slider-handle:focus-visible),
+  :global(.rc-slider-handle-click-focused:focus) {
+    box-shadow: 0 0 5px $zest;
+  }
+
+  :global(.rc-slider-handle:hover) {
+    /* stylelint-disable-next-line */
+    border-color: #57c5f7;
+  }
+
+  :global(.rc-slider-handle:active) {
+    cursor: grabbing;
+  }
+
+  :global(.rc-slider-mark) {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  :global(.rc-slider-mark-text),
+  :global(.rc-slider-dot) {
+    display: none;
+  }
+
+  :global(.rc-slider-step) {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: transparent;
+    pointer-events: none;
+  }
+}

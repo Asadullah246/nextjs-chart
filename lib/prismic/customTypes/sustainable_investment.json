@@ -1,0 +1,249 @@
+{
+  "id": "sustainable_investment",
+  "label": "Sustainable Investment",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display Name"
+        }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "intro": [],
+            "responsability": [],
+            "our_method": [],
+            "going_sustainable": [],
+            "minimal_ready_to_invest": []
+          },
+          "choices": {
+            "intro": {
+              "type": "Slice",
+              "fieldset": "Intro",
+              "description": "Introduction block",
+              "icon": "image",
+              "display": "list",
+              "non-repeat": {
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+                }
+              },
+              "repeat": {}
+            },
+            "responsability": {
+              "type": "Slice",
+              "fieldset": "Responsability",
+              "description": "Responsability for our future",
+              "icon": "child_care",
+              "display": "list",
+              "non-repeat": {
+                "header": { "type": "Text", "config": { "label": "Header" } },
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Title"
+                  }
+                },
+                "content_left": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content Left"
+                  }
+                },
+                "content_right": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content Right"
+                  }
+                },
+                "cards_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Cards Title"
+                  }
+                },
+                "card_1_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Card 1 Title"
+                  }
+                },
+                "card_1_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Card 1 Content"
+                  }
+                },
+                "card_2_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Card 2 Title"
+                  }
+                },
+                "card_2_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Card 2 Content"
+                  }
+                },
+                "card_3_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Card 3 Title"
+                  }
+                },
+                "card_3_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Card 3 Content"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "going_sustainable": {
+              "type": "Slice",
+              "fieldset": "Going sustainable",
+              "description": "How to choose suistainable investment",
+              "icon": "face",
+              "display": "list",
+              "non-repeat": {
+                "header": { "type": "Text", "config": { "label": "Header" } },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                },
+                "box_1": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Box 1"
+                  }
+                },
+                "box_2": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Box 2"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": { "width": 1564, "height": 807 },
+                    "thumbnails": [{ "name": "mobile", "width": 728, "height": 697 }],
+                    "label": "Image"
+                  }
+                },
+                "image_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Image Description"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "generic": {
+              "type": "Slice",
+              "fieldset": "Generic",
+              "description": "A generic slice",
+              "icon": "view_agenda",
+              "display": "list",
+              "non-repeat": {
+                "header": { "type": "Text", "config": { "label": "Header" } },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+                },
+                "image_position": {
+                  "type": "Select",
+                  "config": { "options": ["left", "right"], "label": "Image Position" }
+                },
+                "extended_image": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "No",
+                    "placeholder_true": "Yes",
+                    "default_value": false,
+                    "label": "Extended Image"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            },
+            "minimal_ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Minimal Ready To Invest",
+              "description": "Minimal teaser",
+              "icon": "account_circle",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "hash": "7c6253113d3b6ea7f92fdffdf48cae09",
+  "status": true,
+  "format": "custom"
+}

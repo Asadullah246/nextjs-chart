@@ -1,0 +1,49 @@
+@import "lib/scss/shared";
+
+%card-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $spacingBase * 10;
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: $spacingBase * 16;
+  }
+
+  @include media-breakpoint-up(xl) {
+    flex-direction: row;
+    align-items: stretch;
+  }
+}
+
+$cardGap: $spacingBase * 10;
+
+%card {
+  @include typography($typographyPBig);
+
+  width: 100%;
+  max-width: 560px;
+  padding: $spacingBase * 5 $spacingBase * 4;
+
+  @include media-breakpoint-up(md) {
+    padding: $spacingBase * 11 $spacingBase * 8;
+  }
+
+  @include media-breakpoint-up(xl) {
+    max-width: none;
+    width: calc(50% - #{$cardGap * 0.5});
+  }
+
+  &:first-child {
+    margin-bottom: $cardGap * 0.5;
+
+    @include media-breakpoint-up(sm) {
+      margin-bottom: $cardGap;
+    }
+
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 0;
+      margin-right: $cardGap;
+    }
+  }
+}

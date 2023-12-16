@@ -1,0 +1,302 @@
+[
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1100,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 5.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 3300,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 27.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 6000,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 81.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 9700,
+    "Zusätzlich %": 3.25,
+    "Grundbetrag CHF": 192.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 14600,
+    "Zusätzlich %": 3.5,
+    "Grundbetrag CHF": 351.75
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 20100,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 544.25
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 25600,
+    "Zusätzlich %": 4.5,
+    "Grundbetrag CHF": 764.25
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 33200,
+    "Zusätzlich %": 5.5,
+    "Grundbetrag CHF": 1106.25
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 44100,
+    "Zusätzlich %": 5.5,
+    "Grundbetrag CHF": 1705.75
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 56700,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 2398.75
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 70900,
+    "Zusätzlich %": 11.5,
+    "Grundbetrag CHF": 3534.75
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 90000,
+    "Zusätzlich %": 11.75,
+    "Grundbetrag CHF": 5731.25
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 114000,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 8551.25
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 142400,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 11391.25
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 2200,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 11
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 6600,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 55
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 12000,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 163
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 19400,
+    "Zusätzlich %": 3.25,
+    "Grundbetrag CHF": 385
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 29200,
+    "Zusätzlich %": 3.5,
+    "Grundbetrag CHF": 703.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 40200,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 1088.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 51200,
+    "Zusätzlich %": 4.5,
+    "Grundbetrag CHF": 1528.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 66400,
+    "Zusätzlich %": 5.5,
+    "Grundbetrag CHF": 2212.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 88200,
+    "Zusätzlich %": 5.5,
+    "Grundbetrag CHF": 3411.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 113400,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 4797.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 141800,
+    "Zusätzlich %": 11.5,
+    "Grundbetrag CHF": 7069.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 180000,
+    "Zusätzlich %": 11.75,
+    "Grundbetrag CHF": 11462.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 228000,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 17102.5
+  },
+  {
+    "Kantons-Id": "9",
+    "Kanton": "ZG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 284800,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 22782.5
+  }
+]

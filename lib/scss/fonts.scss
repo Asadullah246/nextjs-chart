@@ -1,0 +1,26 @@
+/* stylelint-disable scss/at-rule-no-unknown */
+
+@import "lib/scss/variables";
+
+@tailwind base;
+
+@layer base {
+
+  @font-face {
+    font-family: "DINNextW01";
+    src: url("/fonts/DINNextLTPro-Medium.woff2") format("woff2"),
+      url("/fonts/DINNextLTPro-Medium.woff") format("woff");
+    font-weight: $fontWeightMedium;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "DINNextW01";
+    src: url("/fonts/DINNextLTPro-Regular.woff2") format("woff2"),
+      url("/fonts/DINNextLTPro-Regular.woff") format("woff");
+    font-weight: $fontWeightRegular;
+    font-style: normal;
+    font-display: swap;
+  }
+}

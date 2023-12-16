@@ -1,0 +1,42 @@
+@import "lib/scss/shared";
+
+.anchor {
+  position: relative;
+  top: $spacingBase * -8;
+}
+
+.container {
+  @include get-z-index(header);
+  @include media-breakpoint-up(lg) {
+    max-width: 1170px;
+  }
+  @include media-breakpoint-up(xxl) {
+    padding-left: 0;
+    padding-right: 0;
+    border-top: $pearlBush 1px solid;
+    max-width: 1332px;
+  }
+}
+
+.intro {
+  text-align: center;
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+  }
+}
+
+.slice_container {
+  display: flex;
+  margin-top: $spacingBase * 8;
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+    gap: 50px;
+  }
+  @include media-breakpoint-down(lg) {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

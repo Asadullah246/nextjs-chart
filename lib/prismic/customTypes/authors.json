@@ -1,0 +1,21 @@
+{
+  "id": "authors",
+  "label": "Authors",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "picture": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Picture" }
+      },
+      "name": { "type": "Text", "config": { "label": "Name" } },
+      "description": {
+        "type": "StructuredText",
+        "config": { "single": "paragraph", "label": "Description" }
+      }
+    }
+  },
+  "hash": "e63b47d3d10c99cda3ade1baf58b3d62",
+  "status": true,
+  "format": "custom"
+}

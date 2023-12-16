@@ -1,0 +1,40 @@
+@import "lib/scss/shared";
+
+.chart {
+  width: 100%;
+  @include media-breakpoint-up(lg) {
+    height: 250px;
+  }
+  @include media-breakpoint-down(lg) {
+    height: 400px;
+    max-width: 500px;
+  }
+}
+
+.chart_error {
+  margin-top: 50px;
+}
+
+.explanation {
+  margin-top: $spacingBase * 4;
+
+  p {
+    @include typography($typographyPRegular);
+  }
+
+  h6 {
+    @include typography($typographyPRegular);
+
+    font-weight: $fontWeightMedium;
+  }
+}
+
+.disclaimer {
+  margin-top: $spacingBase * 4;
+
+  p {
+    @include typography($typographyPSmall);
+
+    color: $introColor;
+  }
+}

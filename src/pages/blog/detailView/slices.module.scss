@@ -1,0 +1,59 @@
+@import "lib/scss/shared";
+
+.highlightedTextSlice {
+  background-color: $dawnPink;
+  padding: $spacingBase * 3 $spacingBase * 4;
+  margin-bottom: $spacingBase * 6;
+}
+
+.imageSlice {
+  margin: $spacingBase * 3 0;
+
+  img {
+    margin: 0 auto $spacingBase * 2;
+    display: block;
+    max-width: 100%;
+  }
+
+  figcaption {
+    @include typography($typographyPRegular);
+
+    font-style: italic;
+  }
+}
+
+.imageSliceClickable img {
+  cursor: pointer;
+}
+
+.htmlSlice {
+  table {
+    @include typography($typographyPSmall);
+
+    margin: $spacingBase * 6 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  th {
+    text-align: left;
+    font-weight: $fontWeightMedium;
+  }
+
+  td,
+  th {
+    border-top: 1px solid $altoBorderColor;
+    padding: 8px;
+  }
+}
+
+.embedSlice {
+  em {
+    @include typography($typographyPRegular);
+
+    display: block;
+    margin-top: $spacingBase * 2;
+    margin-bottom: $spacingBase * 6;
+    font-style: italic;
+  }
+}

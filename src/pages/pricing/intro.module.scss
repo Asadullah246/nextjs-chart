@@ -1,0 +1,123 @@
+@import "lib/scss/shared";
+
+.title {
+  text-align: center;
+  margin-bottom: $spacingBase * 10;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $spacingBase * 6 $spacingBase * 4;
+  margin: 0 -#{get-section-padding(x, xs)};
+
+  @include media-breakpoint-up(sm) {
+    padding: $spacingBase * 8 $spacingBase * 10;
+    margin: 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding: $spacingBase * 8 $spacingBase * 10;
+  }
+
+  blockquote {
+    font-size: 36px;
+    font-weight: $fontWeightMedium;
+    font-style: normal;
+    line-height: 100%;
+    color: $tobaccoBrown;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    margin-bottom: $spacingBase * 5;
+    word-wrap: break-word;
+
+    @include media-breakpoint-up(md) {
+      font-size: 40px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 46px;
+    }
+
+    &::before {
+      display: block;
+      content: open-quote;
+      font-size: 150px;
+      opacity: 0.1;
+      line-height: normal;
+      margin-top: $spacingBase * -2;
+      margin-left: $spacingBase * -1;
+      margin-bottom: $spacingBase * -16;
+    }
+
+    a {
+      @include typography($typographyPRegular);
+    }
+  }
+}
+
+.fees {
+  text-align: center;
+}
+
+.feesTotalContainer {
+  display: inline-flex;
+  color: $primaryColor;
+  align-items: baseline;
+
+  .feesTotal {
+    font-size: 120px;
+    line-height: 1;
+    letter-spacing: -0.07em;
+    margin-right: $spacingBase;
+  }
+
+  .feesMax {
+    @include typography($typographyPBig);
+
+    width: $spacingBase * 7;
+  }
+
+  .feesPercentage {
+    font-size: 50px;
+  }
+}
+
+.feesPerAnnum {
+  color: $tobaccoBrown;
+  font-size: 28px;
+}
+
+.feesSliders {
+  display: grid;
+  gap: $spacingBase;
+  margin: $spacingBase * 5 0;
+}
+
+.feesTableContainer {
+  @include typography($typographyPMedium);
+
+  color: $tobaccoBrown;
+
+  .feesTable {
+    width: 100%;
+    margin-bottom: $spacingBase * 5;
+
+    tr + tr {
+      border-top: $pearlBush 1px solid;
+    }
+
+    td {
+      padding: $spacingBase / 2 0;
+
+      @include media-breakpoint-up(md) {
+        white-space: nowrap;
+      }
+    }
+
+    td + td {
+      text-align: right;
+      white-space: nowrap;
+    }
+  }
+}

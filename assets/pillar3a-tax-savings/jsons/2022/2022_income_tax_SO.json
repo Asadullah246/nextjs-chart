@@ -1,0 +1,112 @@
+[
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 12000,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 14000,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 100
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 17000,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 280
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 20000,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 490
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 25000,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 890
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 32000,
+    "Zusätzlich %": 9.5,
+    "Grundbetrag CHF": 1520
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 50000,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 3230
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 70000,
+    "Zusätzlich %": 10.5,
+    "Grundbetrag CHF": 5230
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 98000,
+    "Zusätzlich %": 11.5,
+    "Grundbetrag CHF": 8170
+  },
+  {
+    "Kantons-Id": "11",
+    "Kanton": "SO",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 310000,
+    "Zusätzlich %": 10.5,
+    "Grundbetrag CHF": 32550
+  }
+]

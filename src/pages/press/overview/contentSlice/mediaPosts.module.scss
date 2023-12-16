@@ -1,0 +1,52 @@
+@import "lib/scss/shared";
+
+.mediaPosts {
+  margin-top: $spacingBase * 14;
+  padding: $spacingBase * 5;
+
+  @include media-breakpoint-up(lg) {
+    padding: $spacingBase * 10;
+  }
+
+  > h3 {
+    margin-bottom: $spacingBase * 5;
+  }
+}
+
+.mediaPost {
+  @include typography($typographyPMedium);
+
+  padding: $spacingBase * 4 0;
+  border-top: $sandyBackgroundColor 1px solid;
+
+  .top {
+    @include typography($typographyPBig);
+
+    margin-bottom: $spacingBase * 1.5;
+    color: $pressSalientTextColor;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  h4 {
+    font-weight: $fontWeightMedium;
+  }
+
+  .resources {
+    a {
+      margin-top: $spacingBase;
+      margin-right: $spacingBase * 5;
+      font-weight: $fontWeightRegular;
+
+      &:not(:hover) {
+        color: $pressSalientTextColor;
+      }
+
+      svg {
+        margin-right: $spacingBase !important;
+      }
+    }
+  }
+}

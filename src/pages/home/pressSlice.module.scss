@@ -1,0 +1,94 @@
+@import "lib/scss/shared";
+
+.press {
+  @include section-padding(y);
+
+  text-align: center;
+
+  :global(.slick-track) {
+    align-items: center;
+  }
+
+  img {
+    display: block;
+    width: 180px;
+    height: auto;
+  }
+}
+
+.logos {
+  margin-top: $spacingBase * 2;
+  margin-bottom: $spacingBase * 10;
+
+  :global(.slick-dots) {
+    bottom: -$spacingBase * 9;
+  }
+
+  :global(.slick-active) {
+    .logo {
+      background-color: $whiteBackgroundColor;
+      box-shadow: 0 4px 16px $blackAlpha15;
+
+      img {
+        filter: none;
+      }
+
+      &::before {
+        border-bottom-color: $whiteBackgroundColor;
+      }
+    }
+  }
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $sandyBackgroundColor;
+  width: 250px;
+  height: 80px;
+  margin: $spacingBase * 3 $spacingBase * 2 $spacingBase * 3 0;
+  transition: all 0.25s ease;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+  }
+
+  &:hover {
+    background-color: $whiteBackgroundColor;
+    box-shadow: 0 4px 16px $blackAlpha15;
+
+    img {
+      filter: none;
+    }
+  }
+
+  img {
+    filter: grayscale(100%);
+  }
+}
+
+.quotes {
+  cursor: default !important;
+}
+
+.quote {
+  @include typography($typographyH3);
+
+  max-width: 748px;
+  margin: $spacingBase * 4 auto;
+  padding: 0 $spacingBase * 4;
+
+  blockquote {
+    font-style: normal;
+  }
+}

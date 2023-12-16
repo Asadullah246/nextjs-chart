@@ -1,0 +1,58 @@
+@import "lib/scss/shared";
+
+.comparisonSliceSectionContainer {
+  @include media-breakpoint-up(md) {
+    max-width: 960px;
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: 1170px;
+  }
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+$maxTextWidth: 880px;
+
+.header {
+  padding: 0 $spacingBase * 3 $spacingBase * 5;
+  max-width: $maxTextWidth;
+
+  @include media-breakpoint-up(sm) {
+    padding: 0 $spacingBase * 5 $spacingBase * 5;
+    text-align: center;
+  }
+}
+
+.comparisonCard {
+  @include section-padding();
+}
+
+.samplePortfolioTextContainer {
+  margin-top: $spacingBase * 9;
+  display: flex;
+  justify-content: center;
+}
+
+.samplePortfolioText {
+  @include typography($typographyPBig);
+
+  text-align: center;
+  font-weight: $fontWeightMedium;
+}
+
+$buttonsMarginTop: $spacingBase * 6;
+
+.samplePortfolioButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: $buttonsMarginTop;
+}
+
+.testAccountButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: $buttonsMarginTop;
+}

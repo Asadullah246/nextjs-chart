@@ -1,0 +1,138 @@
+@import "lib/scss/shared";
+
+div.blogPost {
+  position: relative;
+  padding: 0;
+  margin-bottom: $spacingBase * 5;
+  margin-left: -#{get-section-padding(x, xs)};
+  margin-right: -#{get-section-padding(x, xs)};
+
+  @include media-breakpoint-up(sm) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  h2 {
+    margin-bottom: $spacingBase * 2;
+  }
+
+  .content {
+    p {
+      @include typography($typographyPBig);
+    }
+  }
+}
+
+.featured {
+  flex-direction: column;
+
+  .content {
+    @include media-breakpoint-up(lg) {
+      padding: $spacingBase * 8 $spacingBase * 7 $spacingBase * 6;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+
+  .coverImage {
+    width: 100%;
+  }
+
+  .coverImageOverlayText {
+    @include typography($typographyH1);
+  }
+
+  h2 {
+    @include media-breakpoint-down(lg) {
+      @include typography($typographyH3, xs);
+    }
+  }
+}
+
+div.listView {
+  @include media-breakpoint-up(lg) {
+    padding: $spacingBase * 8;
+  }
+
+  h2 {
+    @include typography($typographyH3);
+  }
+
+  .content {
+    @include media-breakpoint-up(lg) {
+      padding: 0 0 0 $spacingBase * 8;
+    }
+  }
+
+  .coverImage {
+    position: relative;
+
+    @include media-breakpoint-up(lg) {
+      min-width: 400px;
+      border-bottom: 0;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.coverImage {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  @include media-breakpoint-up(lg) {
+    width: 400px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.coverImageOverlayText {
+  @include typography($typographyH3);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: $white;
+  min-width: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: $fontWeightMedium;
+}
+
+.content {
+  padding: $spacingBase * 3;
+
+  @include media-breakpoint-up(sm) {
+    padding: $spacingBase * 7;
+  }
+
+  a {
+    @include typography($typographyPBig);
+
+    font-weight: $fontWeightMedium;
+    padding: $spacingBase;
+    margin-left: -$spacingBase;
+  }
+}
+
+.linkOverlay {
+  position: absolute;
+  inset: 0;
+}

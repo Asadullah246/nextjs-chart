@@ -1,0 +1,105 @@
+{
+  "id": "faq",
+  "label": "FAQ",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display Name"
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Title"
+        }
+      },
+      "content": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Content"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": { "faq_block": [] },
+          "choices": {
+            "faq_block": {
+              "type": "Slice",
+              "fieldset": "FAQ Block",
+              "description": "Block of FAQ of specific topic",
+              "icon": "question_answer",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {
+                "question": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Question"
+                  }
+                },
+                "answer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Answer"
+                  }
+                },
+                "is_expanded": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "No",
+                    "placeholder_true": "Yes",
+                    "default_value": false,
+                    "label": "Expanded"
+                  }
+                }
+              }
+            },
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "SEO Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "SEO Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "hash": "415aca7238bd39fad08beb458777819f",
+  "status": true,
+  "format": "custom"
+}

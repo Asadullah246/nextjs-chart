@@ -1,0 +1,12 @@
+@import "lib/scss/shared";
+@import "src/core/list.module";
+
+.wrapper {
+  @include media-breakpoint-down(xl) {
+    max-width: 700px;
+  }
+
+  ul {
+    @extend %tick;
+  }
+}

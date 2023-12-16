@@ -1,0 +1,101 @@
+[
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Formel": ""
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 15894,
+    "Formel": "-0.822905 * $wert$ + 0.089718 * $wert$ * (log $wert$ - 1) + 788.632565"
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 42385,
+    "Formel": "-0.326307 * $wert$ + 0.043109 * $wert$ * (log $wert$ - 1) + (-1186.893636)"
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 105962,
+    "Formel": "0.051689 * $wert$ + 0.010441 * $wert$ * (log $wert$ - 1) + (-4648.453416)"
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1218558,
+    "Formel": "223903.8 + 0.1862 * ($wert$ - 1218558)"
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Formel": ""
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 7947,
+    "Formel": "0.49 * $wert$ / 100"
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 15894,
+    "Formel": "-0.822905 * $wert$ + 0.089718 * $wert$ * (log $wert$ - 1) + 788.632565"
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 42385,
+    "Formel": "-0.326307 * $wert$ + 0.043109 * $wert$ * (log $wert$ - 1) + (-1186.893636)"
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 105962,
+    "Formel": "0.051689 * $wert$ + 0.010441 * $wert$ * (log $wert$ - 1) + (-4648.453416)"
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1218558,
+    "Formel": "223903.8 + 0.1862 * ($wert$ - 1218558)"
+  }
+]

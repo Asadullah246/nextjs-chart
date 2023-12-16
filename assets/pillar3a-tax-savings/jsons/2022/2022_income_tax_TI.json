@@ -1,0 +1,302 @@
+[
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 12000,
+    "Zusätzlich %": 5.321,
+    "Grundbetrag CHF": 19.6
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 16700,
+    "Zusätzlich %": 6.05,
+    "Grundbetrag CHF": 269.7
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 20000,
+    "Zusätzlich %": 3.99,
+    "Grundbetrag CHF": 469.35
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 25000,
+    "Zusätzlich %": 7.626,
+    "Grundbetrag CHF": 668.85
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 28900,
+    "Zusätzlich %": 9.621,
+    "Grundbetrag CHF": 966.25
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 38200,
+    "Zusätzlich %": 10.553,
+    "Grundbetrag CHF": 1861
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 50500,
+    "Zusätzlich %": 11.174,
+    "Grundbetrag CHF": 3159
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 55800,
+    "Zusätzlich %": 12,
+    "Grundbetrag CHF": 3751.2
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 70000,
+    "Zusätzlich %": 11.794,
+    "Grundbetrag CHF": 5455.2
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 87700,
+    "Zusätzlich %": 12.681,
+    "Grundbetrag CHF": 7542.75
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 109300,
+    "Zusätzlich %": 13.302,
+    "Grundbetrag CHF": 10281.85
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 218600,
+    "Zusätzlich %": 14.278,
+    "Grundbetrag CHF": 24820.95
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 365300,
+    "Zusätzlich %": 15.076,
+    "Grundbetrag CHF": 45766.8
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 19600,
+    "Zusätzlich %": 3.99,
+    "Grundbetrag CHF": 28.95
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 23800,
+    "Zusätzlich %": 4.434,
+    "Grundbetrag CHF": 196.55
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 27000,
+    "Zusätzlich %": 2.66,
+    "Grundbetrag CHF": 338.45
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 31800,
+    "Zusätzlich %": 3.99,
+    "Grundbetrag CHF": 466.15
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 40600,
+    "Zusätzlich %": 6.651,
+    "Grundbetrag CHF": 817.25
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 45900,
+    "Zusätzlich %": 7.981,
+    "Grundbetrag CHF": 1169.75
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 58100,
+    "Zusätzlich %": 10.287,
+    "Grundbetrag CHF": 2143.45
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 76600,
+    "Zusätzlich %": 11.262,
+    "Grundbetrag CHF": 4046.55
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 86700,
+    "Zusätzlich %": 12.859,
+    "Grundbetrag CHF": 5184
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 117700,
+    "Zusätzlich %": 12.238,
+    "Grundbetrag CHF": 9170.3
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 135300,
+    "Zusätzlich %": 13.125,
+    "Grundbetrag CHF": 11324.2
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 175800,
+    "Zusätzlich %": 14.011,
+    "Grundbetrag CHF": 16639.85
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 218600,
+    "Zusätzlich %": 14.544,
+    "Grundbetrag CHF": 22636.55
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 291600,
+    "Zusätzlich %": 14.898,
+    "Grundbetrag CHF": 33253.65
+  },
+  {
+    "Kantons-Id": "21",
+    "Kanton": "TI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 730700,
+    "Zusätzlich %": 15.076,
+    "Grundbetrag CHF": 98670.75
+  }
+]

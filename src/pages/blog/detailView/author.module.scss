@@ -1,0 +1,51 @@
+@import "lib/scss/shared";
+
+div.author {
+  margin-top: $spacingBase * 8;
+  margin-bottom: $spacingBase * 8;
+  padding-top: $spacingBase * 8;
+  border-top: $altoBorderColor 1px solid;
+
+  h3 {
+    @include typography($typographyPSmall);
+
+    font-weight: $fontWeightRegular;
+    text-transform: uppercase;
+    color: $blogDetailViewAuthorSilverTextColor;
+  }
+
+  figure {
+    @include media-breakpoint-up(sm) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  img {
+    width: 110px;
+    min-width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: $spacingBase * 3;
+
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 0;
+    }
+  }
+
+  figcaption {
+    @include media-breakpoint-up(sm) {
+      padding-left: $spacingBase * 3;
+    }
+  }
+
+  strong {
+    display: block;
+    margin-bottom: $spacingBase;
+  }
+
+  p {
+    @include typography($typographyPRegular);
+  }
+}

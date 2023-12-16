@@ -1,0 +1,74 @@
+{
+  "id": "pillar_3a_tax_saving_calculator",
+  "label": "Pillar 3a tax saving calculator",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display Name"
+        }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": null,
+          "choices": {
+            "tax_savings_calculator": {
+              "type": "Slice",
+              "fieldset": "Tax savings calculator",
+              "description": "Tax savings calculator",
+              "icon": "control_point",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2",
+                    "label": "title",
+                    "placeholder": "Your tax saving potential"
+                  }
+                },
+                "subtitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "subtitle",
+                    "placeholder": "Don't miss out on any Pillar 3a tax benefits!"
+                  }
+                },
+                "disclaimer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "disclaimer",
+                    "placeholder": "The 3a calculator was updated..."
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_category": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

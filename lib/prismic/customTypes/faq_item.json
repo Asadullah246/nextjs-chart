@@ -1,0 +1,38 @@
+{
+  "id": "faq_item",
+  "label": "FAQ Item",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "category": {
+        "type": "Link",
+        "config": { "select": "document", "customtypes": ["faq_category"], "label": "Category" }
+      },
+      "question": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Question"
+        }
+      },
+      "answer": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Answer"
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "SEO Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "SEO Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

@@ -1,0 +1,123 @@
+@import "lib/scss/variables";
+
+@mixin media-breakpoint-up($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    /* stylelint-disable-next-line media-query-no-invalid */
+    @media (min-width: $breakpoint-value) {
+      @content;
+    }
+  } @else {
+    @warn "Invalid breakpoint: #{$breakpoint}.";
+  }
+}
+
+@mixin media-breakpoint-down($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    /* stylelint-disable-next-line media-query-no-invalid */
+    @media (max-width: ($breakpoint-value - 1)) {
+      @content;
+    }
+  } @else {
+    @warn "Invalid breakpoint: #{$breakpoint}.";
+  }
+}
+
+@mixin media-breakpoint-between($lower, $upper) {
+  @if map-has-key($breakpoints, $lower) and map-has-key($breakpoints, $upper) {
+    $lower-breakpoint: map-get($breakpoints, $lower);
+    $upper-breakpoint: map-get($breakpoints, $upper);
+
+    /* stylelint-disable-next-line media-query-no-invalid */
+    @media (min-width: $lower-breakpoint) and (max-width: ($upper-breakpoint - 1)) {
+      @content;
+    }
+  } @else {
+    @if (map-has-key($breakpoints, $lower) == false) {
+      @warn "Your lower breakpoint was invalid: #{$lower}.";
+    }
+
+    @if (map-has-key($breakpoints, $upper) == false) {
+      @warn "Your upper breakpoint was invalid: #{$upper}.";
+    }
+  }
+}
+
+@mixin typography($typographyMap, $breakpointOnly: null) {
+  @if map-has-key($breakpoints, $breakpointOnly) {
+    $map: map-get($typographyMap, $breakpointOnly);
+
+    font-size: map-get($map, font-size);
+    line-height: map-get($map, line-height);
+  } @else {
+    @each $breakpoint, $typography in $typographyMap {
+      @if $breakpoint == default {
+        font-size: map-get($typography, font-size);
+        line-height: map-get($typography, line-height);
+      } @else {
+        @if map-has-key($breakpoints, $breakpoint) {
+          $breakpoint: map-get($breakpoints, $breakpoint);
+        }
+        /* stylelint-disable-next-line media-query-no-invalid */
+        @media screen and (min-width: $breakpoint) {
+          font-size: map-get($typography, font-size);
+          line-height: map-get($typography, line-height);
+        }
+      }
+    }
+  }
+}
+
+@mixin section-padding($direction: null) {
+  @each $breakpoint, $entry in $sectionPadding {
+    @if $breakpoint == default {
+      @if $direction == "x" {
+        padding-right: map-get($entry, x);
+        padding-left: map-get($entry, x);
+      } @else if $direction == "y" {
+        padding-top: map-get($entry, y);
+        padding-bottom: map-get($entry, y);
+      } @else {
+        padding: map-get($entry, y) map-get($entry, x);
+      }
+    } @else {
+      @if map-has-key($breakpoints, $breakpoint) {
+        $breakpoint: map-get($breakpoints, $breakpoint);
+      }
+      /* stylelint-disable-next-line media-query-no-invalid */
+      @media screen and (min-width: $breakpoint) {
+        @if $direction == "x" {
+          padding-right: map-get($entry, x);
+          padding-left: map-get($entry, x);
+        } @else if $direction == "y" {
+          padding-top: map-get($entry, y);
+          padding-bottom: map-get($entry, y);
+        } @else {
+          padding: map-get($entry, y) map-get($entry, x);
+        }
+      }
+    }
+  }
+}
+
+@function get-section-padding($direction, $breakpoint) {
+  @return map-get(map-get($sectionPadding, $breakpoint), $direction);
+}
+
+@mixin logo {
+  width: 148px;
+  height: 24px;
+  display: block;
+
+  @include media-breakpoint-up(md) {
+    width: 160px;
+    height: 35px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: 208px;
+  }
+}

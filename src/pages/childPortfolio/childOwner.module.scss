@@ -1,0 +1,41 @@
+@import "lib/scss/shared";
+
+.intro {
+  text-align: center;
+  max-width: 930px;
+  margin: 0 auto;
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+  }
+}
+
+.grid {
+  display: grid;
+  gap: $spacingBase * 3;
+  margin-top: $spacingBase * 8;
+
+  @include media-breakpoint-up(lg) {
+    gap: $spacingBase * 8;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.gridItem {
+  @include typography($typographyPMedium);
+
+  background-color: $pearlBush;
+  border: $sandyPearlBush 1px solid;
+  padding: $spacingBase * 2 $spacingBase * 3;
+  color: $introColor;
+
+  @include media-breakpoint-up(sm) {
+    padding: $spacingBase * 4 $spacingBase * 5;
+  }
+
+  strong {
+    color: $textColor;
+  }
+}

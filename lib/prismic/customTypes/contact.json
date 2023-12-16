@@ -1,0 +1,115 @@
+{
+  "id": "contact",
+  "label": "Contact",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display Name"
+        }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": { "intro": [], "is_right": [], "is_not_right": [] },
+          "choices": {
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            },
+            "intro": {
+              "type": "Slice",
+              "fieldset": "Intro",
+              "description": "Introduction text",
+              "icon": "text_fields",
+              "display": "list",
+              "non-repeat": {
+                "intro_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro Content"
+                  }
+                },
+                "box_1_title": { "type": "Text", "config": { "label": "Box 1 Title" } },
+                "box_1_link": {
+                  "type": "Link",
+                  "config": { "label": "Box 1 Link", "select": null }
+                },
+                "box_1_link_label": { "type": "Text", "config": { "label": "Box 1 Link Label" } },
+                "box_1_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Box 1 Content"
+                  }
+                },
+                "box_2_title": { "type": "Text", "config": { "label": "Box 2 Title" } },
+                "box_2_email_address": {
+                  "type": "Text",
+                  "config": { "label": "Box 2 Email Address" }
+                },
+                "box_2_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Box 2 Content"
+                  }
+                },
+                "box_3_title": { "type": "Text", "config": { "label": "Box 3 Title" } },
+                "box_3_phone_number": {
+                  "type": "Text",
+                  "config": { "label": "Box 3 Phone Number" }
+                },
+                "box_3_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Box 3 Content"
+                  }
+                },
+                "main_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Main Content"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "hash": "97efcef9554181d269dc486a10273b96",
+  "status": true,
+  "format": "custom"
+}

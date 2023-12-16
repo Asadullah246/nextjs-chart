@@ -1,0 +1,11 @@
+@import "lib/scss/shared";
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+}

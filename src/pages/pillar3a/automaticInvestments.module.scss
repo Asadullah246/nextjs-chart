@@ -1,0 +1,92 @@
+@import "lib/scss/shared";
+
+.container {
+  max-width: 1333px;
+
+  @include media-breakpoint-up(lg) {
+    margin: 0 $spacingBase * 5;
+    padding-left: 0;
+    padding-right: 0;
+    border-top: $pearlBush 1px solid;
+    border-bottom: $pearlBush 1px solid;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    margin: 0 auto;
+  }
+}
+
+.intro {
+  text-align: center;
+  max-width: 930px;
+  margin: 0 auto;
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+  }
+}
+
+.mobileView {
+  margin-top: $spacingBase * 6;
+
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+
+.desktopView {
+  display: none;
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    gap: $spacingBase * 8;
+    margin-top: $spacingBase * 10;
+  }
+}
+
+.sidebar {
+  color: $introColor;
+  max-width: 413px;
+
+  .description {
+    @include typography($typographyPMedium);
+
+    margin-top: $spacingBase * 5;
+    padding: $spacingBase * 4 0 0 $spacingBase * 3;
+    border-top: $pearlBush 1px solid;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: $spacingBase * 2;
+  margin: 0 $spacingBase * -5;
+  padding: 0 $spacingBase * 5;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.imageContainer {
+  background-color: $white;
+  box-shadow: 0 30px 80px $blackAlpha15;
+  display: flex;
+  align-items: center;
+  margin: 0 $spacingBase * -7;
+  padding: $spacingBase * 5 0;
+
+  @include media-breakpoint-up(sm) {
+    width: 100%;
+    margin: 0;
+    padding: $spacingBase * 5 $spacingBase * 7;
+  }
+
+  img,
+  picture {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,9 @@
+@import "lib/scss/shared";
+
+.ourMethod {
+  @include typography($typographyPBig);
+
+  img {
+    max-height: 950px;
+  }
+}

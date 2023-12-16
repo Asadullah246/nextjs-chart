@@ -1,0 +1,60 @@
+@import "lib/scss/shared";
+
+$contentGap: $spacingBase * 18;
+
+.container {
+  @include media-breakpoint-down(xl) {
+    max-width: 720px;
+  }
+}
+
+.contentWrapper {
+  @include typography($typographyPBig);
+
+  @include media-breakpoint-up(xl) {
+    display: flex;
+  }
+}
+
+.leftContent {
+  @include media-breakpoint-up(xl) {
+    min-width: 50%;
+    padding-right: $contentGap * 0.5;
+  }
+}
+
+.rightContent {
+  @include media-breakpoint-up(xl) {
+    min-width: 50%;
+    padding-left: $contentGap * 0.5;
+  }
+
+  ul {
+    margin: $spacingBase * 5 0;
+
+    @include media-breakpoint-up(lg) {
+      margin: $spacingBase * 10 0;
+    }
+
+    @include media-breakpoint-up(xl) {
+      margin-top: $spacingBase * 21;
+    }
+
+    li {
+      display: flex;
+      margin-bottom: $spacingBase * 5;
+
+      @include media-breakpoint-up(lg) {
+        margin-top: $spacingBase * 10;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      img {
+        margin-right: $spacingBase * 4;
+      }
+    }
+  }
+}

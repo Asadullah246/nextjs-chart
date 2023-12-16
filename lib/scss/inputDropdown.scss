@@ -1,0 +1,33 @@
+@use "react-widgets/scss/styles" with (
+  $components: (
+    "DropdownList"
+  ),
+  $input-height: 44px,
+  $input-color: $black,
+  $input-focus-border-color: $inputFocusBorderColor,
+  $widget-border-color: $softAmber,
+  $widget-focus-color: $inputFocusBorderColor,
+  $widget-focus-box-shadow: 0 0 0 0.1rem $inputFocusBoxShadowColor,
+  $list-selected-bg: $zest !important,
+  $input-caret-color: $black
+);
+
+.rw-widget-picker {
+  grid-template: 1fr/1fr 44px;
+}
+
+.rw-picker-caret {
+  background-color: $sandyPearlBush;
+}
+
+.rw-dropdown-list-value {
+  margin: auto 0;
+}
+
+.rw-dropdownlist-search {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border-style: none;
+  }
+}

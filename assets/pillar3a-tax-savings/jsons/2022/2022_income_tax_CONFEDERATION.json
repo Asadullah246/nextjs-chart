@@ -1,0 +1,272 @@
+[
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 14500,
+    "Zusätzlich %": 0.77,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 31600,
+    "Zusätzlich %": 0.88,
+    "Grundbetrag CHF": 131.65
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 41400,
+    "Zusätzlich %": 2.64,
+    "Grundbetrag CHF": 217.9
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 55200,
+    "Zusätzlich %": 2.97,
+    "Grundbetrag CHF": 582.2
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 72500,
+    "Zusätzlich %": 5.94,
+    "Grundbetrag CHF": 1096
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 78100,
+    "Zusätzlich %": 6.6,
+    "Grundbetrag CHF": 1428.6
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 103600,
+    "Zusätzlich %": 8.8,
+    "Grundbetrag CHF": 3111.6
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 134600,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 5839.6
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 176000,
+    "Zusätzlich %": 13.2,
+    "Grundbetrag CHF": 10393.6
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 755200,
+    "Zusätzlich %": 11.5,
+    "Grundbetrag CHF": 86848
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 28300,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 50900,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 226
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 58400,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 376
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 75300,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 883
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 90300,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 1483
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 103400,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 2138
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 114700,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 2816
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 124200,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 3481
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 131700,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 4081
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 137300,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 4585
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 141200,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 4975
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 143100,
+    "Zusätzlich %": 12,
+    "Grundbetrag CHF": 5184
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 145000,
+    "Zusätzlich %": 13,
+    "Grundbetrag CHF": 5412
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 895800,
+    "Zusätzlich %": 12.5,
+    "Grundbetrag CHF": 103016
+  },
+  {
+    "Kantons-Id": "-",
+    "Kanton": "Bund",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Bundessteuer",
+    "Steuerbares Einkommen CHF": 895900,
+    "Zusätzlich %": 11.5,
+    "Grundbetrag CHF": 103028.5
+  }
+]

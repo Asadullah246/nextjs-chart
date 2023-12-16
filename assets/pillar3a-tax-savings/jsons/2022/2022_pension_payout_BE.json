@@ -1,0 +1,173 @@
+[
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0.65
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 5200,
+    "Zusätzlich %": 0.65
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 26500,
+    "Zusätzlich %": 0.85
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 53000,
+    "Zusätzlich %": 1.1
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 105800,
+    "Zusätzlich %": 1.15
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 158600,
+    "Zusätzlich %": 1.3
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 264200,
+    "Zusätzlich %": 1.6
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 422600,
+    "Zusätzlich %": 1.85
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 686700,
+    "Zusätzlich %": 1.9
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1214900,
+    "Zusätzlich %": 2
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0.65
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 5200,
+    "Zusätzlich %": 0.65
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 52800,
+    "Zusätzlich %": 0.9
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 105600,
+    "Zusätzlich %": 1.15
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 211200,
+    "Zusätzlich %": 1.3
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 316800,
+    "Zusätzlich %": 1.5
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 528100,
+    "Zusätzlich %": 1.8
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 845000,
+    "Zusätzlich %": 1.9
+  },
+  {
+    "Kantons-Id": "2",
+    "Kanton": "BE",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1373200,
+    "Zusätzlich %": 2
+  }
+]

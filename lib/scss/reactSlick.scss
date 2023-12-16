@@ -1,0 +1,152 @@
+@import "lib/scss/shared";
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  .slick-dots {
+    list-style-type: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    white-space: nowrap;
+
+    li {
+      display: inline-block;
+      margin: $spacingBase * 2 0;
+
+      button {
+        width: 33px;
+        height: 33px;
+        cursor: pointer;
+        position: relative;
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+
+        @include media-breakpoint-up(md) {
+          width: 18px;
+          height: 18px;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 8px;
+          height: 8px;
+          background-color: $sandyBackgroundColor;
+          text-align: center;
+          border-radius: 50%;
+          transition: background-color 0.25s ease;
+        }
+      }
+
+      &.slick-active button::before,
+      button:hover::before {
+        background: $primaryColor;
+      }
+    }
+  }
+
+  .slick-track,
+  .slick-list {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.dragging {
+    cursor: hand;
+  }
+}
+
+.slick-track {
+  display: flex;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+
+  .slick-loading & {
+    visibility: hidden;
+  }
+}
+
+.slick-slide {
+  display: flex;
+  height: auto;
+  overflow: hidden;
+
+  img {
+    display: block;
+  }
+
+  &.slick-loading img {
+    display: none;
+  }
+
+  &.dragging img {
+    pointer-events: none;
+  }
+
+  > div {
+    height: 100%;
+  }
+
+  .slick-initialized & {
+    display: block;
+  }
+
+  .slick-loading & {
+    visibility: hidden;
+  }
+
+  .slick-vertical & {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+  }
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}

@@ -1,0 +1,48 @@
+@import "lib/scss/shared";
+
+$cellMinWidth: 215px;
+$cellPadding: $spacingBase * 4;
+$firstCellRightPadding: $spacingBase * 10;
+
+.comparisonTable {
+  @include typography($typographyPMedium);
+
+  @include media-breakpoint-down(xl) {
+    display: none;
+  }
+
+  tr {
+    border-bottom: 1px solid $altoBorderColor;
+
+    &:last-child:not(:first-child) {
+      border-bottom: 0;
+    }
+  }
+
+  th {
+    text-align: left;
+    color: $primaryColor;
+    padding: $cellPadding;
+    font-weight: $fontWeightMedium;
+  }
+
+  td {
+    padding: $cellPadding;
+    min-width: $cellMinWidth + $cellPadding * 2;
+  }
+
+  td:first-child {
+    text-transform: uppercase;
+    padding-right: $firstCellRightPadding;
+    color: $rowNameTextColor;
+    font-weight: $fontWeightMedium;
+  }
+
+  .trueWealth {
+    background: $lightBackgroundColor;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+}

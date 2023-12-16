@@ -1,0 +1,31 @@
+input {
+  appearance: none;
+  background-color: $white;
+  border: 1px solid $softAmber;
+  border-radius: 3px;
+  color: $black;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 2.75rem;
+  line-height: 1.5;
+  min-width: 0;
+  outline: none;
+  padding: 0.5625rem 0.75rem;
+  width: 100%;
+  font-family: inherit;
+  box-sizing: border-box !important;
+
+  &:focus {
+    outline: 0 !important;
+    border-color: $inputFocusBorderColor;
+    box-shadow: 0 0 0 0.1rem $inputFocusBoxShadowColor;
+  }
+
+  &.invalid {
+    border: 1px solid $inputErrorBorderColor;
+
+    &:focus {
+      box-shadow: 0 0 1px 1px $inputErrorBoxShadowColor;
+    }
+  }
+}

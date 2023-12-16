@@ -1,0 +1,22 @@
+{
+  "id": "knowledge_navigation",
+  "label": "Knowledge Navigation",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "links": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "label": { "type": "Text", "config": { "label": "label" } },
+            "link": { "type": "Link", "config": { "label": "Link", "select": null } }
+          },
+          "label": "links"
+        }
+      }
+    }
+  },
+  "hash": "5d37a66623c5e7ac486a2c3f35af8179",
+  "status": true,
+  "format": "custom"
+}

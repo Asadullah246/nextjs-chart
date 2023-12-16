@@ -1,0 +1,130 @@
+{
+  "id": "jobs",
+  "label": "Jobs",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display Name"
+        }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "intro": {
+              "type": "Slice",
+              "fieldset": "Intro",
+              "description": "Introduction block",
+              "icon": "image",
+              "display": "list",
+              "non-repeat": {
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+                }
+              },
+              "repeat": {}
+            },
+            "working": {
+              "type": "Slice",
+              "fieldset": "Working",
+              "description": "Working at True Wealth",
+              "icon": "work",
+              "display": "list",
+              "non-repeat": {
+                "header": { "type": "Text", "config": { "label": "Header" } },
+                "left_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Left Content"
+                  }
+                }
+              },
+              "repeat": {
+                "image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                }
+              }
+            },
+            "open_positions": {
+              "type": "Slice",
+              "fieldset": "Open Positions",
+              "description": "Bamboo HR integration",
+              "icon": "crop_free",
+              "display": "list",
+              "non-repeat": {
+                "application_note": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Application Note"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "learn_more": {
+              "type": "Slice",
+              "fieldset": "Learn More",
+              "description": "Learn More",
+              "icon": "control_point",
+              "non-repeat": {
+                "content": {
+                  "type": "StructuredText",
+                  "config": { "multi": "heading3,heading5", "label": "Content" }
+                },
+                "link_target": {
+                  "type": "Link",
+                  "config": { "label": "Link Target", "select": null }
+                },
+                "link_content": {
+                  "type": "StructuredText",
+                  "config": { "single": "paragraph", "label": "Link Content" }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "hash": "a97cfcf76599e890b9fe06001b79fa71",
+  "status": true,
+  "format": "custom"
+}

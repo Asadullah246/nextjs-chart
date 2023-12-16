@@ -1,0 +1,232 @@
+[
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 9400,
+    "Zusätzlich %": 0.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 11700,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 11.5
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 14700,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 41.5
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 15800,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 63.5
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 16900,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 96.5
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 19600,
+    "Zusätzlich %": 4.5,
+    "Grundbetrag CHF": 204.5
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 23700,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 389
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 104200,
+    "Zusätzlich %": 5.25,
+    "Grundbetrag CHF": 4414
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 155100,
+    "Zusätzlich %": 5.5,
+    "Grundbetrag CHF": 7086.25
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 180100,
+    "Zusätzlich %": 5.8,
+    "Grundbetrag CHF": 8461.25
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1984500,
+    "Zusätzlich %": 5.7,
+    "Grundbetrag CHF": 113116.45
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 18800,
+    "Zusätzlich %": 0.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 22700,
+    "Zusätzlich %": 1.5,
+    "Grundbetrag CHF": 19.5
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 23700,
+    "Zusätzlich %": 2.5,
+    "Grundbetrag CHF": 34.5
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 24800,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 62
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 26800,
+    "Zusätzlich %": 3.5,
+    "Grundbetrag CHF": 122
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 30800,
+    "Zusätzlich %": 4.5,
+    "Grundbetrag CHF": 262
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 93800,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 3097
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 130600,
+    "Zusätzlich %": 5.5,
+    "Grundbetrag CHF": 4937
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 150600,
+    "Zusätzlich %": 5.8,
+    "Grundbetrag CHF": 6037
+  },
+  {
+    "Kantons-Id": "3",
+    "Kanton": "LU",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1348900,
+    "Zusätzlich %": 5.6,
+    "Grundbetrag CHF": 75538.4
+  }
+]

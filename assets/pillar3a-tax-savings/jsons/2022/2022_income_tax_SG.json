@@ -1,0 +1,65 @@
+[
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 11000,
+    "Zusätzlich %": 0
+  },
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 4000,
+    "Zusätzlich %": 4
+  },
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 17000,
+    "Zusätzlich %": 6
+  },
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 25000,
+    "Zusätzlich %": 8
+  },
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 36000,
+    "Zusätzlich %": 9.2
+  },
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 157000,
+    "Zusätzlich %": 9.4
+  },
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 999999999,
+    "Zusätzlich %": 8.5
+  }
+]

@@ -1,0 +1,37 @@
+@import "lib/scss/shared";
+
+@mixin expand {
+  min-width: 0;
+  width: 100%;
+}
+
+.overlay_parent {
+  @include expand;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay_content {
+  @include expand;
+
+  &_opaque {
+    background-color: $white;
+    opacity: 0.2;
+  }
+}
+
+.overlay_children {
+  @include expand;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay_spinner {
+  z-index: 4;
+  position: absolute;
+}

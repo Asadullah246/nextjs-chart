@@ -1,0 +1,18 @@
+[
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuersatz %": 2.2
+  },
+  {
+    "Kantons-Id": "17",
+    "Kanton": "SG",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuersatz %": 2
+  }
+]

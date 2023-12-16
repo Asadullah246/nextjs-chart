@@ -1,0 +1,22 @@
+[
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 0,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "13",
+    "Kanton": "BL",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 400000,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 8000
+  }
+]

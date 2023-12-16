@@ -1,0 +1,35 @@
+@import "lib/scss/variables/colors";
+@import "lib/scss/variables/typography";
+
+$spacingBase: 6px;
+
+$breakpoints: (
+  xs: 0,
+  sm: 544px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$sectionPadding: (
+  xs: (
+    x: $spacingBase * 3,
+    y: $spacingBase * 5
+  ),
+  sm: (
+    x: $spacingBase * 5,
+    y: $spacingBase * 8
+  ),
+  lg: (
+    x: $spacingBase * 5,
+    y: $spacingBase * 12
+  )
+);
+
+$extendedImageOffset: $spacingBase * 10;
+
+$maxContainerWidth: 1170px;
+
+$defaultImageDropShadow: drop-shadow(26px 24px 24px $blackAlpha20);
+$inverseDefaultImageDropShadow: drop-shadow(-26px 24px 24px $blackAlpha20);

@@ -1,0 +1,102 @@
+$fontPrimary: "DINNextW01", "Helvetica Neue", helvetica, arial, sans-serif;
+
+$fontWeightRegular: 400;
+$fontWeightMedium: 700;
+
+$fontSizeBase: 16px;
+
+$typographyH1: (
+  xs: (
+    font-size: 2.125rem,
+    line-height: 2.5rem
+  ),
+  lg: (
+    font-size: 2.5rem,
+    line-height: 3rem
+  ),
+  xxl: (
+    font-size: 3rem,
+    line-height: 3.625rem
+  )
+);
+
+$typographyH2: (
+  xs: (
+    font-size: 1.75rem,
+    line-height: 2.225rem
+  ),
+  lg: (
+    font-size: 2rem,
+    line-height: 2.375rem
+  ),
+  xxl: (
+    font-size: 2.25rem,
+    line-height: 2.688rem
+  )
+);
+
+$typographyH3: (
+  xs: (
+    font-size: 1.3rem,
+    line-height: 1.625rem
+  ),
+  lg: (
+    font-size: 1.375rem,
+    line-height: 1.75rem
+  ),
+  xxl: (
+    font-size: 1.75rem,
+    line-height: 2.375rem
+  )
+);
+
+$typographyH4: (
+  xs: (
+    font-size: 1.15rem,
+    line-height: 1.35rem
+  ),
+  lg: (
+    font-size: 1.2rem,
+    line-height: 1.4rem
+  ),
+  xxl: (
+    font-size: 1.25rem,
+    line-height: 1.45rem
+  )
+);
+
+$typographyPSmall: (
+  xs: (
+    font-size: 0.9375rem,
+    line-height: 1.3
+  )
+);
+
+$typographyPRegular: (
+  xs: (
+    font-size: $fontSizeBase,
+    line-height: 1.5
+  )
+);
+
+$typographyPMedium: (
+  xs: (
+    font-size: 1.1rem,
+    line-height: 1.875rem
+  ),
+  lg: (
+    font-size: 1.125rem,
+    line-height: 2rem
+  )
+);
+
+$typographyPBig: (
+  xs: (
+    font-size: 1.125rem,
+    line-height: 1.725rem
+  ),
+  lg: (
+    font-size: 1.25rem,
+    line-height: 2.025rem
+  )
+);

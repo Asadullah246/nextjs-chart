@@ -1,0 +1,61 @@
+@import "lib/scss/shared";
+
+.container {
+  @include typography($typographyPMedium);
+
+  a {
+    color: $tobaccoBrown;
+    text-decoration: none;
+    font-weight: $fontWeightRegular;
+
+    &:hover,
+    &:focus {
+      color: $linkHoverColor;
+    }
+  }
+
+  svg {
+    color: $dark50;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.mobile {
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+
+  svg {
+    /* stylelint-disable-next-line value-keyword-case */
+    color: currentColor;
+    flex-shrink: 0;
+    margin-top: $spacingBase * -0.5;
+    margin-right: $spacingBase * 1.5 !important;
+  }
+}
+
+.desktop {
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    align-items: center;
+    gap: $spacingBase * 2;
+  }
+}
+
+.currentItem {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 300px;
+  text-overflow: ellipsis;
+
+  @include media-breakpoint-up(lg) {
+    max-width: 500px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    max-width: 700px;
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "faq_category",
+  "label": "FAQ Category",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Title"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Description"
+        }
+      },
+      "icon": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Icon" }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": null,
+          "choices": {
+            "subcategory": {
+              "type": "Slice",
+              "fieldset": "Subcategory",
+              "description": "Subcategory",
+              "icon": "featured_play_list",
+              "display": "list",
+              "non-repeat": {
+                "heading": {
+                  "type": "StructuredText",
+                  "config": { "single": "heading2", "label": "Heading" }
+                }
+              },
+              "repeat": {
+                "faq_item": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["faq_item"],
+                    "label": "FAQ Item"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "SEO Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "SEO Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

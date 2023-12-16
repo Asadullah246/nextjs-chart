@@ -1,0 +1,11 @@
+@import "lib/scss/shared";
+
+.doughnut {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto $spacingBase * 5;
+
+  @include media-breakpoint-up(lg) {
+    margin: 0 $spacingBase * 10;
+  }
+}

@@ -1,0 +1,46 @@
+@import "lib/scss/shared";
+
+.backgroundImage {
+  @include media-breakpoint-down(xl) {
+    display: none;
+  }
+}
+
+.introSlice {
+  @include media-breakpoint-up(xxl) {
+    margin-bottom: $spacingBase * 10;
+  }
+}
+
+.mainContent {
+  @include typography($typographyPBig);
+
+  @include media-breakpoint-up(xl) {
+    padding-bottom: $spacingBase * 17;
+  }
+
+  .mainContentContainer {
+    @include media-breakpoint-between(xl, xxl) {
+      flex-direction: column;
+
+      > div {
+        width: 100%;
+        padding-left: $spacingBase * 10;
+        padding-right: $spacingBase * 10;
+
+        figure {
+          position: relative;
+
+          img {
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+
+        &:first-child {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}

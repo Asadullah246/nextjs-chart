@@ -1,0 +1,54 @@
+@import "lib/scss/shared";
+
+.section {
+  position: relative;
+  background-color: $whiteBackgroundColor;
+
+  &.transparent {
+    background-color: transparent;
+  }
+
+  &.light {
+    background-color: $lightBackgroundColor;
+  }
+
+  &.pearl {
+    background-color: $pearlBackgroundColor;
+  }
+
+  &.sandy {
+    background-color: $sandyBackgroundColor;
+  }
+
+  &.lightToPearl {
+    background-image: $dawnPink60ToPearl40BackgroundImage;
+  }
+
+  &.pearlToLight {
+    background-image: $pearl60ToDawnPink40BackgroundImage;
+  }
+
+  &.pearlToWhite {
+    background-image: $pearl90ToWhite90BackgroundImage;
+  }
+
+  &.whiteToLight {
+    background-image: $whiteToDawnPink60BackgroundImage;
+  }
+
+  &.whiteFixedToLight {
+    background-image: $whiteToDawnPinkFixedBackgroundImage;
+  }
+
+  &.beforeExtendedImage {
+    @include media-breakpoint-up(xl) {
+      padding-bottom: $extendedImageOffset;
+    }
+  }
+
+  &.afterExtendedImage {
+    @include media-breakpoint-up(xl) {
+      padding-top: $extendedImageOffset;
+    }
+  }
+}

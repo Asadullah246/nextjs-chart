@@ -1,0 +1,96 @@
+@import "lib/scss/shared";
+
+.sectionContainer {
+  max-width: 1426px;
+}
+
+.intro {
+  max-width: 962px;
+  margin: 0 auto $spacingBase * 6;
+  text-align: center;
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+  }
+}
+
+.carousel {
+  padding-bottom: $spacingBase * 16;
+
+  @include media-breakpoint-up(xl) {
+    padding-bottom: $spacingBase * 10;
+    cursor: auto !important;
+    user-select: auto;
+  }
+
+  :global(.slick-slide),
+  :global(.slick-list) {
+    overflow: visible;
+  }
+
+  :global(.slick-slide:nth-child(2)) {
+    margin: $spacingBase * -4 0;
+  }
+}
+
+.carouselItem {
+  height: 100%;
+  padding: $spacingBase * 4;
+  margin: 0 $spacingBase * 2;
+
+  @include media-breakpoint-up(md) {
+    padding: $spacingBase * 6;
+    margin: 0 $spacingBase * 3;
+  }
+}
+
+.carouselItemSecondary {
+  background-color: $dawnPink;
+}
+
+.carouselItemHeader {
+  @include typography($typographyPBig);
+
+  margin-bottom: $spacingBase * 3;
+  font-weight: $fontWeightMedium;
+
+  svg {
+    height: 35px;
+    width: auto;
+  }
+}
+
+.carouselGridItem {
+  display: flex;
+  gap: $spacingBase * 3;
+  align-items: center;
+  margin-bottom: $spacingBase * 3;
+  padding-bottom: $spacingBase * 3;
+  border-bottom: $pearlBush 1px solid;
+
+  > svg {
+    width: 40px;
+    height: 40px;
+    color: $tobaccoBrown;
+    flex-shrink: 0;
+  }
+}
+
+.carouselGridItemLabel {
+  @include typography($typographyPMedium);
+
+  color: $tobaccoBrown;
+  text-transform: uppercase;
+  font-weight: $fontWeightMedium;
+  word-break: break-all;
+}
+
+.carouselGridItemContent {
+  @include typography($typographyPBig);
+}
+
+.carouselGridItemFooter {
+  @include typography($typographyPRegular);
+}

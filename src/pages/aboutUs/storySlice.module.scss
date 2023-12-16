@@ -1,0 +1,88 @@
+@import "lib/scss/shared";
+
+$textHorizontalPadding: $spacingBase * 10;
+$itemMaxWidth: 485px + $textHorizontalPadding;
+$itemGap: $spacingBase * 14;
+
+.title {
+  @include section-padding(x);
+
+  text-align: center;
+  justify-content: center;
+  margin-bottom: $spacingBase * 4;
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: $spacingBase * 10;
+  }
+}
+
+.item {
+  @include section-padding(x);
+
+  position: relative;
+  max-width: $itemMaxWidth;
+
+  @include media-breakpoint-up(sm) {
+    margin: 0 auto;
+  }
+
+  &:last-child .yearContainer::after {
+    content: none;
+  }
+}
+
+.yearContainer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+
+  @include media-breakpoint-up(lg) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $sandyBackgroundColor;
+  }
+}
+
+.year {
+  @include typography($typographyH3);
+
+  text-align: center;
+  color: $primaryColor;
+  background-color: $whiteBackgroundColor;
+  padding: $spacingBase $spacingBase * 4;
+  border-radius: 36px;
+  box-shadow: 0 15px 40px $blackAlpha10;
+}
+
+.content {
+  position: relative;
+  top: $spacingBase * 9;
+  left: $spacingBase * 13;
+  padding: $spacingBase * 2 $spacingBase * 3 $itemGap 0;
+  max-width: calc(100% - #{$spacingBase * 10});
+
+  @include media-breakpoint-up(lg) {
+    left: 55%;
+    top: $spacingBase * 2;
+    max-width: none;
+    padding: 0 $textHorizontalPadding $itemGap;
+
+    &.even {
+      transform: translateX(-110%);
+      text-align: right;
+    }
+  }
+
+  p {
+    @include typography($typographyPBig);
+  }
+}

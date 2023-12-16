@@ -1,0 +1,104 @@
+@import "lib/scss/shared";
+
+.introSlice {
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: $spacingBase * 9;
+
+  strong {
+    color: $primaryColor;
+    font-weight: $fontWeightMedium;
+  }
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+  }
+
+  br {
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+}
+
+.advantages {
+  max-width: 1333px;
+
+  @include media-breakpoint-up(lg) {
+    h2 {
+      margin-bottom: $spacingBase * 9;
+    }
+  }
+}
+
+.carousel {
+  padding-bottom: $spacingBase * 10;
+
+  @include media-breakpoint-down(md) {
+    margin: 0 $spacingBase * -3;
+  }
+
+  @include media-breakpoint-up(xl) {
+    cursor: auto !important;
+    user-select: auto;
+  }
+
+  :global(.slick-slide) {
+    overflow: visible;
+  }
+
+  :global(.slick-list) {
+    overflow: visible;
+  }
+}
+
+.card {
+  @include typography($typographyPMedium);
+
+  height: 100%;
+  margin: 0 $spacingBase;
+
+  @include media-breakpoint-up(xl) {
+    margin: 0 $spacingBase * 3;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+    background-color: $white;
+    padding: $spacingBase * 4;
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      padding: $spacingBase * 6 $spacingBase * 18 $spacingBase * 10;
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding: $spacingBase * 6;
+    }
+  }
+
+  a {
+    margin-top: $spacingBase * 3;
+  }
+
+  p {
+    color: $introColor;
+    margin-bottom: $spacingBase * 2;
+  }
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: $spacingBase;
+  color: $tobaccoBrown;
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1300,
+    "Zusätzlich %": 0.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 0.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1000,
+    "Zusätzlich %": 0.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 900,
+    "Zusätzlich %": 1
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 900,
+    "Zusätzlich %": 1.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1000,
+    "Zusätzlich %": 1.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1600,
+    "Zusätzlich %": 2
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 2100,
+    "Zusätzlich %": 2.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3200,
+    "Zusätzlich %": 2.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 5300,
+    "Zusätzlich %": 2.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 7400,
+    "Zusätzlich %": 3
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 9500,
+    "Zusätzlich %": 3.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 10500,
+    "Zusätzlich %": 3.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 8400,
+    "Zusätzlich %": 3.65
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 175100,
+    "Zusätzlich %": 3.9
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 155500,
+    "Zusätzlich %": 7
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 999999999,
+    "Zusätzlich %": 5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1300,
+    "Zusätzlich %": 0.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 0.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1000,
+    "Zusätzlich %": 0.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 900,
+    "Zusätzlich %": 1
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 900,
+    "Zusätzlich %": 1.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1000,
+    "Zusätzlich %": 1.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1600,
+    "Zusätzlich %": 2
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 2100,
+    "Zusätzlich %": 2.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3200,
+    "Zusätzlich %": 2.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 5300,
+    "Zusätzlich %": 2.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 7400,
+    "Zusätzlich %": 3
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 9500,
+    "Zusätzlich %": 3.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 10500,
+    "Zusätzlich %": 3.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 8400,
+    "Zusätzlich %": 3.65
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 175100,
+    "Zusätzlich %": 3.9
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 155500,
+    "Zusätzlich %": 7
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 999999999,
+    "Zusätzlich %": 5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1300,
+    "Zusätzlich %": 0.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 0.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1000,
+    "Zusätzlich %": 0.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 900,
+    "Zusätzlich %": 1
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 900,
+    "Zusätzlich %": 1.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1000,
+    "Zusätzlich %": 1.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1600,
+    "Zusätzlich %": 2
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 2100,
+    "Zusätzlich %": 2.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 3200,
+    "Zusätzlich %": 2.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 5300,
+    "Zusätzlich %": 2.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 7400,
+    "Zusätzlich %": 3
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 9500,
+    "Zusätzlich %": 3.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 10500,
+    "Zusätzlich %": 3.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 8400,
+    "Zusätzlich %": 3.65
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 175100,
+    "Zusätzlich %": 3.9
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 999999999,
+    "Zusätzlich %": 3.65
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1300,
+    "Zusätzlich %": 0.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 0.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1000,
+    "Zusätzlich %": 0.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 900,
+    "Zusätzlich %": 1
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 900,
+    "Zusätzlich %": 1.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1000,
+    "Zusätzlich %": 1.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 1600,
+    "Zusätzlich %": 2
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 2100,
+    "Zusätzlich %": 2.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 3200,
+    "Zusätzlich %": 2.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 5300,
+    "Zusätzlich %": 2.75
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 7400,
+    "Zusätzlich %": 3
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 9500,
+    "Zusätzlich %": 3.25
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 10500,
+    "Zusätzlich %": 3.5
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 8400,
+    "Zusätzlich %": 3.65
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 175100,
+    "Zusätzlich %": 3.9
+  },
+  {
+    "Kantons-Id": "5",
+    "Kanton": "SZ",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend",
+    "Steuerhoheit": "Gemeinde",
+    "Für die nächsten CHF": 999999999,
+    "Zusätzlich %": 3.65
+  }
+]

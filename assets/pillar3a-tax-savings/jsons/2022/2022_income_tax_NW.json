@@ -1,0 +1,164 @@
+[
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 10900,
+    "Zusätzlich %": 0
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 2200,
+    "Zusätzlich %": 0.5
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1.2
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1.4
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1.6
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 1.8
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 2
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 2.2
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 2.4
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 1100,
+    "Zusätzlich %": 2.6
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 7600,
+    "Zusätzlich %": 2.8
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 16300,
+    "Zusätzlich %": 2.9
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 29300,
+    "Zusätzlich %": 3
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 32600,
+    "Zusätzlich %": 3.1
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 30800,
+    "Zusätzlich %": 3.2
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 16200,
+    "Zusätzlich %": 3.3
+  },
+  {
+    "Kantons-Id": "7",
+    "Kanton": "NW",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 999999999,
+    "Zusätzlich %": 2.75
+  }
+]

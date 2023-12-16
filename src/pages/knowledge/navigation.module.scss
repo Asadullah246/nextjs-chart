@@ -1,0 +1,58 @@
+@import "lib/scss/shared";
+
+.navigation {
+  @include media-breakpoint-up(xl) {
+    width: 35%;
+    min-width: 35%;
+    padding-right: $spacingBase * 5;
+    border-right: $sandyBackgroundColor 1px solid;
+  }
+
+  ul {
+    display: none;
+
+    @include media-breakpoint-up(xl) {
+      display: block;
+    }
+  }
+
+  li {
+    a {
+      display: block;
+      position: relative;
+      text-decoration: none;
+      padding: 11px 30px;
+    }
+
+    &:not(.active) {
+      a:not(:hover) {
+        color: $introColor;
+      }
+    }
+  }
+
+  .active a {
+    background-color: $pearlBackgroundColor;
+    color: $linkActiveColor;
+  }
+
+  select {
+    appearance: none;
+    border: 0;
+    font-family: inherit;
+    background-color: $pearlBackgroundColor;
+    color: $linkActiveColor;
+    padding: 16px 48px 16px 24px;
+    margin-bottom: $spacingBase * 5;
+    background-image: url("/icons/chevronDown.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-size: 12px;
+    max-width: 100%;
+    text-overflow: ellipsis;
+
+    @include media-breakpoint-up(xl) {
+      display: none;
+    }
+  }
+}

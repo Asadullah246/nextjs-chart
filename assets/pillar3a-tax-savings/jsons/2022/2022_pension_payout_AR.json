@@ -1,0 +1,42 @@
+[
+  {
+    "Kantons-Id": "15",
+    "Kanton": "AR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 0,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "15",
+    "Kanton": "AR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 400000,
+    "Zusätzlich %": 1.3333,
+    "Grundbetrag CHF": 4000
+  },
+  {
+    "Kantons-Id": "15",
+    "Kanton": "AR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 0,
+    "Zusätzlich %": 0.75,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "15",
+    "Kanton": "AR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 400000,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 3000
+  }
+]

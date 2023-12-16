@@ -1,0 +1,13 @@
+@import "lib/scss/shared";
+
+.readyToInvestGroup {
+  @include typography($typographyH3);
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: $spacingBase * 5;
+}
+
+.container {
+  text-align: center;
+}

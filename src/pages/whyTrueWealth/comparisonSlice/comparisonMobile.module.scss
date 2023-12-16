@@ -1,0 +1,73 @@
+@import "lib/scss/shared";
+
+.comparisonMobileSections {
+  @include typography($typographyPMedium);
+
+  @include media-breakpoint-up(sm) {
+    display: none;
+  }
+}
+
+$itemsPadding: $spacingBase * 3 $spacingBase * 6 $spacingBase * 3 $spacingBase * 3;
+$bottomMargin: $spacingBase * 4;
+
+.comparisonMobileSection {
+  margin-bottom: $bottomMargin;
+
+  &.trueWealth {
+    background: $lightBackgroundColor;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  &:not(.optionsShown) {
+    &:not(.trueWealth) {
+      display: none;
+    }
+  }
+
+  &:not(.trueWealth) {
+    border-bottom: 1px solid $blackAlpha20;
+  }
+}
+
+.comparisonMobileSectionHeader {
+  padding: $itemsPadding;
+  color: $primaryColor;
+  font-weight: $fontWeightMedium;
+}
+
+.comparisonMobileSectionContent {
+  padding: $itemsPadding;
+
+  @include media-breakpoint-up(md) {
+    columns: 2;
+    column-gap: $spacingBase * 6;
+  }
+
+  .rowName {
+    color: $rowNameTextColor;
+    text-transform: uppercase;
+    font-weight: $fontWeightMedium;
+  }
+
+  &:last-child {
+    margin-bottom: $bottomMargin;
+  }
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: $spacingBase * 5;
+  font-weight: $fontWeightMedium;
+  text-decoration-line: underline;
+
+  div {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

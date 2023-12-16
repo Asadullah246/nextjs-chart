@@ -1,0 +1,25 @@
+@import "lib/scss/shared";
+
+.sectionHeading {
+  @include typography($typographyPBig);
+
+  display: flex;
+  align-items: center;
+  margin-bottom: $spacingBase * 4;
+  font-weight: $fontWeightRegular;
+  color: $sectionHeadingColor;
+
+  &::before {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 30px;
+    margin-top: -4px;
+    margin-right: $spacingBase * 3;
+    background-color: $sandyBackgroundColor;
+
+    @include media-breakpoint-up(sm) {
+      width: 60px;
+    }
+  }
+}

@@ -1,0 +1,214 @@
+@import "lib/scss/shared";
+
+$cardGap: $spacingBase * 28;
+$cardGapSmall: $spacingBase * 15;
+$cardBubbleSize: 96px;
+$cardBubbleSizeSmall: 72px;
+
+.introSlice {
+  .title {
+    @include media-breakpoint-up(sm) {
+      text-align: center;
+    }
+
+    p {
+      @include typography($typographyPBig);
+
+      color: $introColor;
+      max-width: 500px;
+      margin: 0 auto;
+
+      @include media-breakpoint-up(lg) {
+        max-width: 600px;
+      }
+    }
+  }
+}
+
+.cardGroup {
+  @include section-padding(x);
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: $spacingBase * 10;
+  counter-reset: cardGroup;
+  align-items: flex-start;
+  max-width: 645px;
+
+  @include media-breakpoint-up(xxl) {
+    max-width: 1398px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &::after {
+    @include media-breakpoint-down(xxl) {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 124px;
+      background-color: $sandyBackgroundColor;
+      width: 5px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      left: 76px;
+    }
+  }
+}
+
+.card {
+  @include typography($typographyPBig);
+  @include get-z-index(section-container);
+
+  position: relative;
+  padding: $spacingBase * 10 $spacingBase * 5 $spacingBase * 5;
+  margin-bottom: $cardGapSmall;
+
+  @include media-breakpoint-up(sm) {
+    padding: $spacingBase * 10;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    margin-bottom: $cardGap;
+    width: calc(50% - #{$cardGap * 0.5});
+  }
+
+  @include media-breakpoint-up(xxl) {
+    &.bubbleLeft::after {
+      left: -#{$cardBubbleSize * 0.5};
+    }
+
+    &.bubbleRight::after {
+      left: auto;
+      right: -#{$cardBubbleSize * 0.5};
+    }
+  }
+
+  &:last-child {
+    margin-bottom: $cardGapSmall * 0.5;
+
+    @include media-breakpoint-up(xxl) {
+      margin-bottom: $cardGap * 0.5;
+    }
+  }
+
+  &:nth-child(2n + 1) {
+    @include media-breakpoint-up(xxl) {
+      margin-right: $cardGap;
+    }
+  }
+
+  &::after {
+    @include typography($typographyH2);
+
+    counter-increment: cardGroup;
+    content: counter(cardGroup);
+    position: absolute;
+    top: -#{$cardBubbleSize * 0.5};
+    left: $spacingBase * 4;
+    width: $cardBubbleSizeSmall;
+    height: $cardBubbleSizeSmall;
+    line-height: $cardBubbleSizeSmall !important;
+    background-color: $whiteBackgroundColor;
+    box-shadow: 0 30px 80px $blackAlpha15;
+    border-radius: 50%;
+    text-align: center;
+    color: $primaryColor;
+
+    @include media-breakpoint-up(sm) {
+      left: $spacingBase * 10;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      width: $cardBubbleSize;
+      height: $cardBubbleSize;
+      line-height: $cardBubbleSize !important;
+    }
+  }
+}
+
+.cardIcon,
+.cardTime {
+  color: $timeTextColor;
+}
+
+.cardTime {
+  display: flex;
+  margin-bottom: $spacingBase * 5;
+
+  svg {
+    width: 20px;
+    height: 24px;
+    margin-top: 1px;
+    margin-right: $spacingBase;
+  }
+}
+
+.cardIcon {
+  position: absolute;
+  top: $spacingBase * 5;
+  right: $spacingBase * 5;
+  width: 58px;
+  height: 58px;
+
+  @include media-breakpoint-up(sm) {
+    top: $spacingBase * 8;
+    right: $spacingBase * 10;
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: 80px;
+    height: 66px;
+  }
+}
+
+.card1,
+.card2,
+.card3 {
+  &::before {
+    @include media-breakpoint-up(xxl) {
+      content: "";
+      position: absolute;
+      height: 5px;
+      background-color: $sandyBackgroundColor;
+      width: 100%;
+      top: 0;
+    }
+  }
+}
+
+.card1 {
+  @include media-breakpoint-up(xxl) {
+    &::before {
+      left: 100%;
+      transform: rotate(46deg);
+      transform-origin: left;
+    }
+  }
+}
+
+.card2 {
+  @include media-breakpoint-up(xxl) {
+    margin-top: $spacingBase * 30;
+
+    &::before {
+      right: 100%;
+      transform: rotate(-67deg);
+      transform-origin: right;
+    }
+  }
+}
+
+.card3 {
+  @include media-breakpoint-up(xxl) {
+    margin-top: $spacingBase * -22;
+
+    &::before {
+      left: 100%;
+      transform: rotate(38deg);
+      transform-origin: left;
+    }
+  }
+}

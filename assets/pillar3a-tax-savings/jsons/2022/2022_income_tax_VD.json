@@ -1,0 +1,572 @@
+[
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 100,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 1
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1600,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 16
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 3200,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 48
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 4800,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 96
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 7900,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 220
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 11200,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 385
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 14300,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 571
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 22300,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 1131
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 38200,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 2403
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 54100,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 3834
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 70100,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 5434
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 86000,
+    "Zusätzlich %": 12,
+    "Grundbetrag CHF": 7183
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 101900,
+    "Zusätzlich %": 12.5,
+    "Grundbetrag CHF": 9091
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 127400,
+    "Zusätzlich %": 13,
+    "Grundbetrag CHF": 12278.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 152800,
+    "Zusätzlich %": 13.5,
+    "Grundbetrag CHF": 15580.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 181500,
+    "Zusätzlich %": 14,
+    "Grundbetrag CHF": 19455
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 210200,
+    "Zusätzlich %": 14.5,
+    "Grundbetrag CHF": 23473
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 241500,
+    "Zusätzlich %": 15,
+    "Grundbetrag CHF": 28011.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 275000,
+    "Zusätzlich %": 15.5,
+    "Grundbetrag CHF": 33036.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 100,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 1
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1600,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 16
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 3200,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 48
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 4800,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 96
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 7900,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 220
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 11200,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 385
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 14300,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 571
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 22300,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 1131
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 38200,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 2403
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 54100,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 3834
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 70100,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 5434
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 86000,
+    "Zusätzlich %": 12,
+    "Grundbetrag CHF": 7183
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 101900,
+    "Zusätzlich %": 12.5,
+    "Grundbetrag CHF": 9091
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 127400,
+    "Zusätzlich %": 13,
+    "Grundbetrag CHF": 12278.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 152800,
+    "Zusätzlich %": 13.5,
+    "Grundbetrag CHF": 15580.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 181500,
+    "Zusätzlich %": 14,
+    "Grundbetrag CHF": 19455
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 210200,
+    "Zusätzlich %": 14.5,
+    "Grundbetrag CHF": 23473
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 241500,
+    "Zusätzlich %": 15,
+    "Grundbetrag CHF": 28011.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit / ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 275000,
+    "Zusätzlich %": 15.5,
+    "Grundbetrag CHF": 33036.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 100,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 1
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 1600,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 16
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 3200,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 48
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 4800,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 96
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 7900,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 220
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 11200,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 385
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 14300,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 571
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 22300,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 1131
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 38200,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 2403
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 54100,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 3834
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 70100,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 5434
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 86000,
+    "Zusätzlich %": 12,
+    "Grundbetrag CHF": 7183
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 101900,
+    "Zusätzlich %": 12.5,
+    "Grundbetrag CHF": 9091
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 127400,
+    "Zusätzlich %": 13,
+    "Grundbetrag CHF": 12278.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 152800,
+    "Zusätzlich %": 13.5,
+    "Grundbetrag CHF": 15580.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 181500,
+    "Zusätzlich %": 14,
+    "Grundbetrag CHF": 19455
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 210200,
+    "Zusätzlich %": 14.5,
+    "Grundbetrag CHF": 23473
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 241500,
+    "Zusätzlich %": 15,
+    "Grundbetrag CHF": 28011.5
+  },
+  {
+    "Kantons-Id": "22",
+    "Kanton": "VD",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 275000,
+    "Zusätzlich %": 15.5,
+    "Grundbetrag CHF": 33036.5
+  }
+]

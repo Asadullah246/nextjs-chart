@@ -1,0 +1,105 @@
+{
+  "id": "press",
+  "label": "Press",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": { "single": "heading1", "label": "Display Name" }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "intro": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Intro"
+        }
+      },
+      "contact": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item",
+          "label": "Contact"
+        }
+      },
+      "link": { "type": "Link", "config": { "label": "Link", "select": null } },
+      "link_text": { "type": "Text", "config": { "label": "Link Text" } },
+      "image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+      },
+      "resources": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "resource_name": { "type": "Text", "config": { "label": "Resource Name" } },
+            "resource": { "type": "Link", "config": { "select": "media", "label": "Resource" } }
+          },
+          "label": "Resources"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": { "media": [] },
+          "choices": {
+            "media": {
+              "type": "Slice",
+              "fieldset": "Media Posts",
+              "description": "TW mentioned in the media",
+              "icon": "settings_input_antenna",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {
+                "publisher": {
+                  "type": "Text",
+                  "config": { "label": "Publisher", "placeholder": "NZZ, Tagesanzeiger etc." }
+                },
+                "date": { "type": "Date", "config": { "label": "Date" } },
+                "title": { "type": "Text", "config": { "label": "Title" } },
+                "content": {
+                  "type": "StructuredText",
+                  "config": { "multi": "paragraph,hyperlink", "label": "Content" }
+                },
+                "external_link": {
+                  "type": "Link",
+                  "config": { "allowTargetBlank": true, "label": "External Link", "select": null }
+                },
+                "asset_1_name": { "type": "Text", "config": { "label": "Asset 1 Name" } },
+                "asset_1": { "type": "Link", "config": { "select": "media", "label": "Asset 1" } },
+                "asset_2_name": { "type": "Text", "config": { "label": "Asset 2 Name" } },
+                "asset_2": { "type": "Link", "config": { "select": "media", "label": "Asset 2" } }
+              }
+            },
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "hash": "c34eb8e87dbe91e91202e34b895d96f2",
+  "status": true,
+  "format": "custom"
+}

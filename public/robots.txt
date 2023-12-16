@@ -1,0 +1,16 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /assets/pdf/SB_2008_D_BesondereRisikenImEffektenhandel.pdf
+Disallow: /assets/pdf/SB_2008_E_SpecialRisksinSecuritiesTrading.pdf
+Disallow: /assets/pdf/SBVg_Risiken_DE_1seitig.pdf
+Disallow: /assets/pdf/SBVg_Risiken_EN-1seitig.pdf
+
+# Host
+Host: https://www.truewealth.ch
+
+# Sitemaps
+Sitemap: https://www.truewealth.ch/sitemap.xml

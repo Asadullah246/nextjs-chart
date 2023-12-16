@@ -1,0 +1,56 @@
+@import "lib/scss/shared";
+
+.intro {
+  margin-bottom: $spacingBase * 6;
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+  }
+}
+
+.categories {
+  display: grid;
+  gap: $spacingBase * 3;
+
+  @include media-breakpoint-up(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.category {
+  background-color: $dawnPink;
+  border: $pearlBush 1px solid;
+  padding: $spacingBase * 3;
+  text-decoration: none;
+  color: $linkColor;
+  font-weight: $fontWeightMedium;
+
+  &:hover,
+  &:focus {
+    color: $linkColor;
+    background-color: $white;
+  }
+
+  > span {
+    display: flex;
+    flex-direction: column;
+    gap: $spacingBase;
+  }
+
+  .categoryTitle {
+    display: flex;
+    gap: $spacingBase;
+    align-items: center;
+  }
+
+  .categoryDescription {
+    color: $tobaccoBrown;
+    font-weight: $fontWeightRegular;
+  }
+}

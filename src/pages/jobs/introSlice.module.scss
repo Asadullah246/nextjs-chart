@@ -1,0 +1,27 @@
+@import "lib/scss/shared";
+
+.introSlice {
+  @include media-breakpoint-up(xl) {
+    margin-top: $spacingBase * 6;
+  }
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+  }
+
+  .realAccount + br {
+    @include media-breakpoint-up(xl) {
+      display: none;
+    }
+  }
+
+  .testAccount {
+    margin: $spacingBase * 2 0 $spacingBase * 2 $spacingBase * -5;
+
+    @include media-breakpoint-up(xl) {
+      margin: 0 0 0 $spacingBase * 2;
+    }
+  }
+}

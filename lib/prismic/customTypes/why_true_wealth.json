@@ -1,0 +1,237 @@
+{
+  "id": "why_true_wealth",
+  "label": "Why True Wealth",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display Name"
+        }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "comparison": [],
+            "radical_costs": [],
+            "reliable_growth": [],
+            "custodian_banks_and_security": []
+          },
+          "choices": {
+            "comparison": {
+              "type": "Slice",
+              "fieldset": "Comparison",
+              "description": "Comparison of True Wealth with other organizations",
+              "icon": "account_balance",
+              "display": "list",
+              "non-repeat": {
+                "heading": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Heading"
+                  }
+                }
+              },
+              "repeat": {
+                "organization": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Organization"
+                  }
+                },
+                "minimum_investment": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Minimum Investment"
+                  }
+                },
+                "costs": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Costs"
+                  }
+                },
+                "convenience": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Convenience"
+                  }
+                },
+                "withdrawals": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Withdrawals"
+                  }
+                },
+                "potential_returns": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Potential Global Returns"
+                  }
+                }
+              }
+            },
+            "radical_costs": {
+              "type": "Slice",
+              "fieldset": "Radical Costs",
+              "description": "Comparison of costs",
+              "icon": "attach_money",
+              "display": "list",
+              "non-repeat": {
+                "heading": { "type": "Text", "config": { "label": "Heading" } },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "reliable_growth": {
+              "type": "Slice",
+              "fieldset": "Reliable Growth",
+              "description": "Slice of True Wealth's Reliable Growth",
+              "icon": "trending_up",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Title"
+                  }
+                },
+                "left_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Left Content"
+                  }
+                },
+                "right_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Right Content"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "generic": {
+              "type": "Slice",
+              "fieldset": "Generic",
+              "description": "A generic slice",
+              "icon": "view_agenda",
+              "display": "list",
+              "non-repeat": {
+                "header": { "type": "Text", "config": { "label": "Header" } },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": { "constraint": {}, "thumbnails": [], "label": "Image" }
+                },
+                "image_position": {
+                  "type": "Select",
+                  "config": { "options": ["left", "right"], "label": "Image Position" }
+                },
+                "extended_image": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "No",
+                    "placeholder_true": "Yes",
+                    "default_value": false,
+                    "label": "Extended Image"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "custodian_banks_and_security": {
+              "type": "Slice",
+              "fieldset": "Custodian Banks and Security",
+              "description": "Content about our custodian banks and security benefits",
+              "icon": "security",
+              "display": "list",
+              "non-repeat": {
+                "custodian_bank_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Custodian Bank Content"
+                  }
+                },
+                "blkb_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "BLKB Content"
+                  }
+                },
+                "saxo_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Saxo Content"
+                  }
+                },
+                "security_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Security Content"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "SEO Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "SEO Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "hash": "338003a79fef2225e9eed01095897972",
+  "status": true,
+  "format": "custom"
+}

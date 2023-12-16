@@ -1,0 +1,99 @@
+@import "lib/scss/shared";
+
+.intro {
+  text-align: center;
+  max-width: 930px;
+  margin: 0 auto;
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+  }
+}
+
+.card {
+  max-width: 874px;
+  padding: $spacingBase * 3;
+  margin: $spacingBase * 6 $spacingBase * -3 0;
+
+  @include media-breakpoint-up(md) {
+    padding: $spacingBase * 6;
+    margin: $spacingBase * 13 auto 0;
+  }
+}
+
+.logo {
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
+
+.logoSmall {
+  width: 32px;
+  margin: 0 auto;
+
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+
+.competitor {
+  @include typography($typographyH4);
+
+  text-align: center;
+}
+
+.grid {
+  @include typography($typographyPSmall);
+
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  align-items: center;
+  padding: $spacingBase * 3 0;
+
+  @include media-breakpoint-up(lg) {
+    @include typography($typographyPMedium);
+
+    column-gap: $spacingBase * 0.7;
+    grid-template-columns: 2.5fr repeat(2, 1fr);
+  }
+
+  &:not(:first-of-type) + .grid {
+    border-top: $pearlBush 1px solid;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.itemText {
+  p {
+    display: inline;
+  }
+}
+
+.twItem,
+.competitorItem {
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    justify-content: center;
+  }
+
+  > svg {
+    width: 32px;
+    height: 32px;
+    color: $tobaccoBrown;
+  }
+}
+
+.hint {
+  display: block;
+  margin-top: $spacingBase * 5;
+  color: $introColor;
+}

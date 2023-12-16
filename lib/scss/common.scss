@@ -1,0 +1,101 @@
+@import "lib/scss/variables";
+@import "lib/scss/mixins";
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @include typography($typographyPRegular);
+
+  font-family: $fontPrimary;
+  font-weight: $fontWeightRegular;
+  background-color: $lightBackgroundColor;
+  color: $textColor;
+  overflow-x: hidden;
+
+  &.preload * {
+    /* This is a hack to prevent any transition to fire on initial page load. 
+    We remove the class once everything has been fetched and the browser is idle. See _document.tsx */
+    transition: none !important;
+  }
+}
+
+h1 {
+  @include typography($typographyH1);
+
+  font-weight: $fontWeightMedium;
+  margin-bottom: $spacingBase * 4;
+}
+
+h2 {
+  @include typography($typographyH2);
+
+  font-weight: $fontWeightMedium;
+  margin-bottom: $spacingBase * 4;
+}
+
+h3 {
+  @include typography($typographyH3);
+
+  font-weight: $fontWeightMedium;
+  margin-bottom: $spacingBase * 2;
+}
+
+h4,
+h5 {
+  @include typography($typographyH4);
+
+  margin-bottom: $spacingBase * 2;
+}
+
+p {
+  margin-bottom: $spacingBase * 4;
+}
+
+blockquote,
+i {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: $fontWeightMedium;
+}
+
+small {
+  @include typography($typographyPSmall);
+}
+
+a {
+  @apply inline-block text-dark-100 underline underline-offset-2 cursor-pointer hover:text-primary-300 active:text-primary-300;
+}
+
+a:not(.button) {
+  @apply focus-visible:text-primary-300 focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-primary-100 focus-visible:ring-opacity-25 focus-visible:ring-offset-primary-100 focus-visible:z-20;
+}
+
+button {
+  font-family: inherit;
+}
+
+@layer base {
+  *,
+  *:focus-visible {
+    @apply outline-none;
+  }
+
+  em {
+    @apply not-italic;
+  }
+
+  svg {
+    display: inline-block;
+  }
+
+  img {
+    max-width: none;
+  }
+}

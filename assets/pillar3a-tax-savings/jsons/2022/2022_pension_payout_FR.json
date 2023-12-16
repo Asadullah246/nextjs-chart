@@ -1,0 +1,62 @@
+[
+  {
+    "Kantons-Id": "10",
+    "Kanton": "FR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "10",
+    "Kanton": "FR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 5000,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 100
+  },
+  {
+    "Kantons-Id": "10",
+    "Kanton": "FR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 40000,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 800
+  },
+  {
+    "Kantons-Id": "10",
+    "Kanton": "FR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 80000,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 2000
+  },
+  {
+    "Kantons-Id": "10",
+    "Kanton": "FR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 130000,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 4000
+  },
+  {
+    "Kantons-Id": "10",
+    "Kanton": "FR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 190000,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 7000
+  }
+]

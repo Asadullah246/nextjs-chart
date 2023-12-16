@@ -1,0 +1,152 @@
+[
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 6300,
+    "Zusätzlich %": 1,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 6600,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 3
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 8300,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 37
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 10400,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 100
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 12700,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 192
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 20600,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 587
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 28500,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 1061
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 36400,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 1614
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 44300,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 2246
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 56900,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 3380
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 69500,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 4640
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 141000,
+    "Zusätzlich %": 12,
+    "Grundbetrag CHF": 12505
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 210100,
+    "Zusätzlich %": 9.9,
+    "Grundbetrag CHF": 20797
+  },
+  {
+    "Kantons-Id": "14",
+    "Kanton": "SH",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 210200,
+    "Zusätzlich %": 9.9,
+    "Grundbetrag CHF": 20809.8
+  }
+]

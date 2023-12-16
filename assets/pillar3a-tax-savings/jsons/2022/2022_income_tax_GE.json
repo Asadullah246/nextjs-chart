@@ -1,0 +1,182 @@
+[
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 17698,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 21323,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 290
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 23455,
+    "Zusätzlich %": 10,
+    "Grundbetrag CHF": 481.88
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 25587,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 695.08
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 27720,
+    "Zusätzlich %": 12,
+    "Grundbetrag CHF": 929.71
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 33050,
+    "Zusätzlich %": 13,
+    "Grundbetrag CHF": 1569.31
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 37314,
+    "Zusätzlich %": 14,
+    "Grundbetrag CHF": 2123.63
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 41579,
+    "Zusätzlich %": 14.5,
+    "Grundbetrag CHF": 2720.73
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 45843,
+    "Zusätzlich %": 15,
+    "Grundbetrag CHF": 3339.01
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 73562,
+    "Zusätzlich %": 15.5,
+    "Grundbetrag CHF": 7496.86
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 120471,
+    "Zusätzlich %": 16,
+    "Grundbetrag CHF": 14767.76
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 162048,
+    "Zusätzlich %": 16.5,
+    "Grundbetrag CHF": 21420.08
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 183371,
+    "Zusätzlich %": 17,
+    "Grundbetrag CHF": 24938.37
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 262262,
+    "Zusätzlich %": 17.5,
+    "Grundbetrag CHF": 38349.84
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 279320,
+    "Zusätzlich %": 18,
+    "Grundbetrag CHF": 41334.99
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 393393,
+    "Zusätzlich %": 18.5,
+    "Grundbetrag CHF": 61868.13
+  },
+  {
+    "Kantons-Id": "25",
+    "Kanton": "GE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 616207,
+    "Zusätzlich %": 19,
+    "Grundbetrag CHF": 103088.72
+  }
+]

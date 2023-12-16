@@ -1,0 +1,84 @@
+{
+  "id": "pages",
+  "label": "Pages",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "name": {
+        "type": "StructuredText",
+        "config": { "single": "heading1", "label": "Display Name" }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "blocks": [],
+            "testimonials": [],
+            "text_block": [],
+            "app_teaser": [],
+            "text_image_block": [],
+            "slider": [],
+            "image_block": [],
+            "faq_block": [],
+            "open_your_account": [],
+            "how_you_invest": [],
+            "iframe": [],
+            "founder_quote": [],
+            "test": [],
+            "job_postings": []
+          },
+          "choices": {
+            "text_block": {
+              "type": "Slice",
+              "fieldset": "Text Block",
+              "description": "Block with texts, images etc.",
+              "icon": "short_text",
+              "display": "list",
+              "non-repeat": {
+                "heading": {
+                  "type": "StructuredText",
+                  "config": { "single": "heading1,heading2,heading3,heading4", "label": "Heading" }
+                }
+              },
+              "repeat": {
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,o-list-item",
+                    "label": "Content"
+                  }
+                }
+              }
+            },
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "hash": "24872ad74296d36319df24c8ec6ca151",
+  "status": true,
+  "format": "custom"
+}

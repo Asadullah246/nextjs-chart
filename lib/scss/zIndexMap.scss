@@ -1,0 +1,10 @@
+$z-index-map: (
+  section-background-image: 0,
+  section-container: 1,
+  header: 2,
+  preview-banner: 3
+);
+
+@mixin get-z-index($key) {
+  z-index: map-get($z-index-map, $key);
+}

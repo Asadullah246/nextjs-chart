@@ -1,0 +1,19 @@
+@import "lib/scss/shared";
+
+.card {
+  padding: $spacingBase * 4;
+  margin-left: -#{get-section-padding(x, xs)};
+  margin-right: -#{get-section-padding(x, xs)};
+
+  @include media-breakpoint-up(sm) {
+    padding: $spacingBase * 6;
+    margin-left: -#{get-section-padding(x, sm)};
+    margin-right: -#{get-section-padding(x, sm)};
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-left: 0;
+    margin-right: 0;
+    padding: $spacingBase * 10;
+  }
+}

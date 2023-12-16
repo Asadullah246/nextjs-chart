@@ -1,0 +1,21 @@
+@import "lib/scss/shared";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-top: $sandyPearlBush 1px solid;
+  margin-top: $spacingBase * 4;
+  padding: $spacingBase * 4 0;
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+
+  h4 {
+    @include media-breakpoint-up(lg) {
+      margin: 0;
+    }
+  }
+}

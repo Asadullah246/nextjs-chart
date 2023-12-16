@@ -1,0 +1,53 @@
+@import "lib/scss/shared";
+
+.inputWrapper {
+  position: relative;
+  margin-bottom: $spacingBase * 5;
+
+  input {
+    padding: 12px 17px 11px 42px;
+    appearance: none;
+
+    + svg {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: 0;
+      color: $silverChalice;
+    }
+  }
+}
+
+.loader {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+}
+
+.items {
+  > div {
+    margin-bottom: $spacingBase * 5;
+  }
+
+  h2 {
+    margin-bottom: $spacingBase * 2;
+  }
+
+  a {
+    display: block;
+    color: $tobaccoBrown;
+    text-decoration: none;
+    font-weight: $fontWeightRegular;
+    border-top: $dawnPink 1px solid;
+    padding: $spacingBase * 1.5;
+
+    &:last-child {
+      border-bottom: $dawnPink 1px solid;
+    }
+
+    &:hover {
+      color: $linkHoverColor;
+    }
+  }
+}

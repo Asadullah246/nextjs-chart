@@ -1,0 +1,46 @@
+{
+  "id": "main_navigation",
+  "label": "Main Navigation",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": { "single": "heading1", "label": "Display Name" }
+      },
+      "nav": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": { "nav_item": [] },
+          "choices": {
+            "nav_item": {
+              "type": "Slice",
+              "fieldset": "Navigation Item",
+              "description": "Navigation Item with Sub Navigation",
+              "icon": "insert_link",
+              "non-repeat": {
+                "label": { "type": "Text", "config": { "label": "Label" } },
+                "link": {
+                  "type": "Link",
+                  "config": { "label": "Link", "placeholder": "Select Link...", "select": null }
+                }
+              },
+              "repeat": {
+                "sub_navigation_link_label": { "type": "Text", "config": { "label": "Label" } },
+                "sub_navigation_link": {
+                  "type": "Link",
+                  "config": { "label": "Link", "select": null }
+                }
+              },
+              "display": "list"
+            }
+          }
+        }
+      }
+    }
+  },
+  "hash": "2904e04ba34d43f3e41ff5090d7a9aa6",
+  "status": true,
+  "format": "custom"
+}

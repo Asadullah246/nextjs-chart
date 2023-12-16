@@ -1,0 +1,69 @@
+@import "lib/scss/shared";
+
+$maxWidth: 1396px;
+$maxWidthSmall: 665px;
+
+.container {
+  max-width: none;
+
+  @include media-breakpoint-up(xxl) {
+    max-width: $maxWidth;
+  }
+}
+
+.cardGroup {
+  max-width: $maxWidthSmall;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media-breakpoint-up(xxl) {
+    max-width: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  @include typography($typographyPBig);
+
+  width: 100%;
+  margin-bottom: $spacingBase * 5;
+  padding: $spacingBase * 7;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: $spacingBase * 10;
+  }
+
+  @include media-breakpoint-up(md) {
+    min-height: 390px;
+    padding: $spacingBase * 11 $spacingBase * 8 $spacingBase * 8 $spacingBase * 8;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    width: calc(50% - #{$spacingBase * 5});
+  }
+
+  &:first-child {
+    @include media-breakpoint-up(lg) {
+      margin-right: $spacingBase * 10;
+    }
+  }
+}
+
+.faq {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+    padding: $spacingBase * 15 $spacingBase * 6;
+  }
+
+  br {
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import "lib/scss/shared";
+
+.box {
+  background-color: $dawnPink;
+  padding: $spacingBase * 4 $spacingBase * 4;
+  margin-top: $spacingBase * 4;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px $blackAlpha20;
+}

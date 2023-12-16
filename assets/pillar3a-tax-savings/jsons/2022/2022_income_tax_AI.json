@@ -1,0 +1,128 @@
+[
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3000,
+    "Zusätzlich %": 0
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3000,
+    "Zusätzlich %": 1
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3000,
+    "Zusätzlich %": 2
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3000,
+    "Zusätzlich %": 3
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3000,
+    "Zusätzlich %": 4
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 3000,
+    "Zusätzlich %": 5
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 4000,
+    "Zusätzlich %": 6
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 4000,
+    "Zusätzlich %": 7
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 4000,
+    "Zusätzlich %": 7.5
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 10000,
+    "Zusätzlich %": 8
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 34000,
+    "Zusätzlich %": 8.5
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 66000,
+    "Zusätzlich %": 9
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 60000,
+    "Zusätzlich %": 8.5
+  },
+  {
+    "Kantons-Id": "16",
+    "Kanton": "AI",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 99999999,
+    "Zusätzlich %": 8
+  }
+]

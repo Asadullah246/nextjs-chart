@@ -1,0 +1,27 @@
+@import "lib/scss/shared";
+
+.container {
+  padding-top: $spacingBase * 5;
+}
+
+.card {
+  box-shadow: 0 30px 60px $blackAlpha15;
+  margin-left: -#{get-section-padding(x, xs)};
+  margin-right: -#{get-section-padding(x, xs)};
+
+  @include media-breakpoint-up(sm) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.content {
+  @include typography($typographyPBig);
+
+  color: $pageTitleContentTextColor;
+  margin-bottom: $spacingBase * 4;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: $spacingBase * 8;
+  }
+}

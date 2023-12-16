@@ -1,0 +1,44 @@
+@import "lib/scss/shared";
+
+.pressReleases {
+  padding: $spacingBase * 5;
+
+  @include media-breakpoint-up(lg) {
+    padding: $spacingBase * 10;
+  }
+
+  > h3 {
+    margin-bottom: $spacingBase * 5;
+  }
+}
+
+.pressRelease {
+  @include typography($typographyH4);
+
+  padding: $spacingBase * 4 0;
+  border-top: $sandyBackgroundColor 1px solid;
+
+  .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacingBase * 2;
+
+    a {
+      margin-left: $spacingBase * 1.5;
+
+      &:not(:hover) {
+        color: $pressSalientTextColor;
+      }
+    }
+  }
+
+  strong {
+    font-weight: $fontWeightRegular;
+  }
+
+  .detailLink {
+    display: block;
+    text-decoration: none;
+    font-weight: $fontWeightMedium;
+  }
+}

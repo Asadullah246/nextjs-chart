@@ -1,0 +1,70 @@
+@import "lib/scss/shared";
+
+.intro {
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+    margin-bottom: $spacingBase * 4 !important;
+  }
+}
+
+.card {
+  @include typography($typographyPMedium);
+
+  padding: #{get-section-padding(x, xs)};
+  margin-left: -#{get-section-padding(x, xs)};
+  margin-right: -#{get-section-padding(x, xs)};
+
+  @include media-breakpoint-up(sm) {
+    padding: $spacingBase * 9;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.block {
+  max-width: 926px;
+}
+
+.inputBlock {
+  margin-bottom: $spacingBase * 5;
+  max-width: 460px;
+}
+
+.summary {
+  align-items: center;
+  border: $pearlBush 1px solid;
+  padding: $spacingBase * 3.5 $spacingBase * 6;
+  margin: $spacingBase * 7 0;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.bondValue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: $spacingBase * 2;
+
+  @include media-breakpoint-up(lg) {
+    margin-left: $spacingBase * 6;
+    margin-top: 0;
+  }
+
+  strong {
+    @include typography($typographyH3);
+  }
+}
+
+.netReturn {
+  margin-right: $spacingBase * 2;
+}

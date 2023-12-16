@@ -1,0 +1,111 @@
+{
+  "id": "bond_price_calculator",
+  "label": "Bond Price Calculator",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": { "single": "heading1", "label": "Display Name" }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            },
+            "bond_price_calculator": {
+              "type": "Slice",
+              "fieldset": "Bond Price Calculator",
+              "description": "Interactive price calculator",
+              "icon": "attach_money",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "face_value_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Face value description"
+                  }
+                },
+                "face_value_label": { "type": "Text", "config": { "label": "Face value label" } },
+                "years_to_maturity_label": {
+                  "type": "Text",
+                  "config": { "label": "Years to maturity label" }
+                },
+                "annual_coupon_rate_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Annual coupon rate description"
+                  }
+                },
+                "annual_coupon_rate_label": {
+                  "type": "Text",
+                  "config": { "label": "Annual coupon rate label" }
+                },
+                "yield_to_maturity_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Yield to maturity description"
+                  }
+                },
+                "yield_to_maturity_label": {
+                  "type": "Text",
+                  "config": { "label": "Yield to maturity label" }
+                },
+                "bond_value_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Bond value description"
+                  }
+                },
+                "further_information": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Further information"
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

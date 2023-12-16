@@ -1,0 +1,13 @@
+@import "lib/scss/variables";
+@import "lib/scss/mixins";
+@import "lib/scss/fonts";
+@import "lib/scss/common";
+@import "lib/scss/form";
+@import "lib/scss/inputDropdown";
+@import "lib/scss/reactSlick";
+@import "lib/scss/tippyjs";
+
+/* stylelint-disable scss/at-rule-no-unknown */
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable scss/at-rule-no-unknown */

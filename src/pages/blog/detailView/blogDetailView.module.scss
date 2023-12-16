@@ -1,0 +1,85 @@
+@import "lib/scss/shared";
+
+.block {
+  letter-spacing: -0.02em;
+  padding-bottom: $spacingBase * 5;
+  margin-left: -#{get-section-padding(x, xs)};
+  margin-right: -#{get-section-padding(x, xs)};
+
+  @include media-breakpoint-up(sm) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h1 {
+    @include typography($typographyH2);
+
+    margin-bottom: $spacingBase * 3;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: $spacingBase * 5;
+    }
+  }
+
+  h2 {
+    @include typography($typographyH3);
+  }
+
+  h3 {
+    @include typography($typographyH4);
+  }
+
+  p {
+    margin-bottom: $spacingBase * 6;
+  }
+
+  a {
+    display: inline;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  pre {
+    @include typography($typographyPRegular);
+
+    display: block;
+    unicode-bidi: embed;
+    font-family: monospace;
+    white-space: pre-wrap;
+    background-color: $zeus;
+    color: $white;
+    padding: $spacingBase * 2 $spacingBase * 3;
+    border-radius: $spacingBase;
+    margin-top: $spacingBase * -4;
+    margin-bottom: $spacingBase * 3;
+  }
+}
+
+.content {
+  @include typography($typographyPMedium);
+
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 $spacingBase * 3;
+
+  @include media-breakpoint-up(sm) {
+    padding: 0 $spacingBase * 7;
+  }
+}
+
+.excerpt {
+  @include typography($typographyPBig);
+
+  font-weight: $fontWeightMedium;
+  margin-bottom: $spacingBase * 5;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: $spacingBase * 7;
+  }
+}
+
+.disclaimer {
+  font-style: italic;
+}

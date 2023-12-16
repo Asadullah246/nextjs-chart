@@ -1,0 +1,54 @@
+@import "lib/scss/shared";
+
+.filter {
+  order: 1;
+  flex: 1;
+  margin-top: $spacingBase * 5;
+
+  @include media-breakpoint-up(lg) {
+    order: 0;
+    margin-top: 0;
+  }
+
+  + div {
+    flex: 3;
+  }
+
+  label {
+    @include typography($typographyH4);
+
+    display: block;
+    margin-bottom: $spacingBase;
+  }
+}
+
+.inputWrapper {
+  margin-bottom: $spacingBase * 4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+}
+
+.doughnutAndTeaserContainer {
+  justify-content: space-between;
+}
+
+.preview {
+  @include media-breakpoint-up(lg) {
+    padding-left: $spacingBase * 4;
+    margin-left: $spacingBase * 4;
+    border-left: $sandyPearlBush 1px solid;
+  }
+
+  > div {
+    @include media-breakpoint-up(lg) {
+      display: flex;
+    }
+  }
+}

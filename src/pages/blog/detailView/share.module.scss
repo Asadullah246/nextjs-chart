@@ -1,0 +1,32 @@
+@import "lib/scss/shared";
+
+.facebook,
+.linkedIn,
+.nativeShare {
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.facebook,
+.linkedIn {
+  display: inline-block;
+  width: $spacingBase * 6;
+  height: $spacingBase * 6;
+  margin-top: -4px;
+  text-align: center;
+
+  svg {
+    vertical-align: middle;
+  }
+
+  span {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.facebook {
+  margin-left: -$spacingBase * 2;
+}

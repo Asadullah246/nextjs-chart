@@ -1,0 +1,109 @@
+@import "lib/scss/shared";
+
+.intro {
+  p {
+    @include typography($typographyPBig);
+
+    color: $tobaccoBrown;
+  }
+}
+
+.sectionContainer {
+  @include media-breakpoint-down(lg) {
+    max-width: 664px;
+  }
+}
+
+.explanation {
+  display: grid;
+  gap: $spacingBase * 10;
+  margin: $spacingBase * 10 0;
+
+  @include media-breakpoint-up(lg) {
+    gap: $spacingBase * 16;
+    grid-template-columns: 1fr 1fr;
+
+    > div:first-child {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: $spacingBase * -9;
+        background-color: $pearlBush;
+        width: 1px;
+      }
+    }
+  }
+}
+
+.youPayBox {
+  display: flex;
+  gap: $spacingBase * 3;
+  color: $tobaccoBrown;
+
+  + .youPayBox {
+    margin-bottom: $spacingBase * 4;
+  }
+
+  h4 {
+    line-height: 1.8rem;
+
+    strong {
+      font-weight: $fontWeightMedium;
+      color: $zeus;
+    }
+  }
+
+  svg {
+    color: $tobaccoBrown;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+}
+
+.youPayNote {
+  color: $tobaccoBrown;
+}
+
+.feesTableContainer {
+  margin-top: $spacingBase * 4;
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    gap: $spacingBase * 12;
+  }
+}
+
+.feesTable {
+  width: 100%;
+
+  td {
+    padding: $spacingBase 0;
+
+    + td {
+      text-align: right;
+    }
+  }
+
+  tr {
+    border-bottom: $pearlBush 1px solid;
+  }
+}
+
+.saveMoneyBox {
+  display: flex;
+  gap: $spacingBase * 3;
+  margin-top: $spacingBase * 8;
+
+  > span {
+    flex-shrink: 0;
+  }
+
+  h4 {
+    font-weight: $fontWeightMedium;
+  }
+}

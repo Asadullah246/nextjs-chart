@@ -1,0 +1,64 @@
+@import "lib/scss/shared";
+
+.container {
+  @include typography($typographyPBig);
+
+  @include media-breakpoint-down(xl) {
+    max-width: 700px;
+  }
+}
+
+.boxContainer {
+  margin: $spacingBase * 5 0;
+
+  @include media-breakpoint-up(xl) {
+    margin: $spacingBase * 10 0;
+    display: flex;
+  }
+}
+
+.box {
+  padding: $spacingBase * 7;
+  border: $sandyBackgroundColor 1px solid;
+  border-radius: 3px;
+
+  @include media-breakpoint-up(xl) {
+    width: calc(50% - #{$spacingBase * 5});
+  }
+
+  &:first-child {
+    margin-bottom: $spacingBase * 5;
+
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 0;
+      margin-right: $spacingBase * 10;
+    }
+  }
+}
+
+.imageContainer {
+  margin: $spacingBase * 10 0;
+
+  @include media-breakpoint-up(xl) {
+    display: flex;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.imageCaption {
+  margin: 0 auto $spacingBase * 5;
+
+  @include media-breakpoint-up(xl) {
+    margin: $spacingBase * 10 $spacingBase * 10 0 0;
+  }
+}
+
+.image {
+  @include media-breakpoint-up(xl) {
+    min-width: 60%;
+  }
+}

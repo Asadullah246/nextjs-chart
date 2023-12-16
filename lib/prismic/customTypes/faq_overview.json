@@ -1,0 +1,48 @@
+{
+  "id": "faq_overview",
+  "label": "FAQ Overview",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "intro": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Intro"
+        }
+      },
+      "categories": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "category": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "customtypes": ["faq_category"],
+                "label": "Category"
+              }
+            }
+          },
+          "label": "Categories"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": { "labels": { "faq_block": [] }, "choices": {} }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "SEO Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "SEO Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

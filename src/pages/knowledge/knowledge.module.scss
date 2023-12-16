@@ -1,0 +1,101 @@
+@import "lib/scss/shared";
+
+.intro {
+  margin-bottom: $spacingBase * 7;
+
+  h2 {
+    @include typography($typographyH1);
+  }
+
+  a:not(:hover) {
+    color: $introColor;
+  }
+
+  p {
+    @include typography($typographyPBig);
+
+    max-width: 620px;
+    color: $introColor;
+  }
+}
+
+.block {
+  @include typography($typographyPMedium);
+
+  padding: $spacingBase * 5 $spacingBase * 3;
+  margin-left: -#{get-section-padding(x, xs)};
+  margin-right: -#{get-section-padding(x, xs)};
+
+  @include media-breakpoint-up(sm) {
+    margin-left: 0;
+    margin-right: 0;
+    padding: $spacingBase * 10;
+  }
+
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    padding: $spacingBase * 12 $spacingBase * 17 $spacingBase * 12 $spacingBase * 11;
+  }
+
+  h1 {
+    @include typography($typographyH2);
+  }
+
+  h2,
+  h3 {
+    @include typography($typographyPMedium);
+  }
+
+  table {
+    @include typography($typographyPSmall);
+
+    width: 100%;
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      margin: $spacingBase * 4 0;
+      float: left;
+      width: 50%;
+    }
+
+    @include media-breakpoint-down(md) {
+      &:first-of-type {
+        margin-top: $spacingBase * 4;
+      }
+
+      + table {
+        margin-bottom: $spacingBase * 4;
+
+        thead {
+          display: none;
+        }
+      }
+    }
+
+    th {
+      font-weight: $fontWeightMedium;
+
+      span {
+        @include media-breakpoint-up(md) {
+          padding-right: 3px;
+        }
+      }
+    }
+
+    td {
+      border-top: 1px solid $altoBorderColor;
+      padding: 7px 0 1px;
+    }
+
+    th,
+    td {
+      width: 50%;
+    }
+  }
+}
+
+.content {
+  @include media-breakpoint-up(xl) {
+    padding-left: $spacingBase * 12;
+  }
+}

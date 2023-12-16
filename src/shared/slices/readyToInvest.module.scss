@@ -1,0 +1,75 @@
+@import "lib/scss/shared";
+
+$laptopWidth: 502px;
+$laptopRightMargin: -80px;
+
+.wrapper {
+  overflow: hidden;
+  justify-content: center;
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    align-items: flex-end;
+    margin-left: -($laptopWidth + $laptopRightMargin) * 0.5;
+  }
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 $spacingBase * 3;
+}
+
+$imageSidePadding: 75px;
+
+.phone {
+  margin-bottom: -85px;
+  transform: translate3d(0, 0, 0);
+  filter: $defaultImageDropShadow;
+  padding: 0 $imageSidePadding;
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 0;
+    margin: 0 0 -67px -15px;
+  }
+}
+
+.laptop {
+  display: none;
+
+  @include media-breakpoint-up(lg) {
+    display: block;
+    transform: translate3d(0, 0, 0);
+    filter: $inverseDefaultImageDropShadow;
+    padding-left: $imageSidePadding;
+    margin: 0 $laptopRightMargin -80px 0;
+  }
+}
+
+.content {
+  padding: $spacingBase * 9 $spacingBase * 9 $spacingBase * 4;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    padding: $spacingBase * 16 $spacingBase * 9 $spacingBase * 10;
+  }
+
+  h2 + a {
+    margin: $spacingBase * 1 0 $spacingBase * 5;
+
+    @include media-breakpoint-up(lg) {
+      margin: $spacingBase * 3 0 $spacingBase * 7;
+    }
+  }
+
+  p {
+    @include media-breakpoint-up(lg) {
+      max-width: 420px;
+    }
+
+    &,
+    + a {
+      @include typography($typographyPMedium);
+    }
+  }
+}

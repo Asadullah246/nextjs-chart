@@ -1,0 +1,19 @@
+@import "lib/scss/shared";
+
+.sectionContainer {
+  @include media-breakpoint-down(xl) {
+    max-width: 750px;
+  }
+
+  iframe {
+    margin: -15px;
+    width: calc(100% + 30px);
+  }
+}
+
+.content {
+  @include typography($typographyPBig);
+
+  max-width: 750px;
+  margin-bottom: $spacingBase * 8;
+}

@@ -1,0 +1,86 @@
+@import "lib/scss/shared";
+
+.list,
+%list {
+  margin-bottom: $spacingBase * 4;
+  margin-left: $spacingBase * 3;
+
+  li {
+    margin-bottom: $spacingBase;
+  }
+}
+
+.none {
+  list-style: none;
+  margin-left: 0;
+}
+
+.square {
+  list-style: square;
+}
+
+.ordered {
+  list-style: decimal;
+
+  > li::marker {
+    font-weight: $fontWeightMedium;
+  }
+}
+
+.tick,
+%tick,
+.forbidden,
+%forbidden {
+  list-style: none;
+  margin-left: 0;
+
+  @include media-breakpoint-up(md) {
+    columns: 2;
+    column-gap: $spacingBase * 6;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: $spacingBase * 4;
+    padding-left: $spacingBase * 6;
+
+    @include media-breakpoint-up(sm) {
+      max-width: 335px;
+    }
+
+    @include media-breakpoint-up(md) {
+      display: inline-block;
+      width: 100%;
+    }
+
+    &::before {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: absolute;
+      left: 0;
+      content: "";
+      height: 18px;
+      width: 18px;
+    }
+  }
+}
+
+.tick,
+%tick {
+  li::before {
+    background-image: url("/icons/tickList.svg");
+    top: 3px;
+  }
+}
+
+.forbidden,
+%forbidden {
+  li::before {
+    background-image: url("/icons/forbidden.svg");
+    top: 3px;
+
+    @include media-breakpoint-up(lg) {
+      top: 6px;
+    }
+  }
+}

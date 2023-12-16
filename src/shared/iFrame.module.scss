@@ -1,0 +1,14 @@
+@import "lib/scss/shared";
+
+.iframe {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.25s ease;
+  width: 100%;
+
+  &.loaded {
+    margin-bottom: $spacingBase * 4;
+    max-height: 3000px;
+  }
+}

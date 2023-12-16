@@ -1,0 +1,30 @@
+@import "lib/scss/shared";
+@import "src/core/list.module";
+
+.introSlice {
+  h2 {
+    @include media-breakpoint-up(md) {
+      text-align: center;
+      margin-bottom: $spacingBase * 9;
+    }
+  }
+
+  ul {
+    @extend %tick;
+    @include typography($typographyPMedium);
+
+    max-width: 872px;
+    margin: 0 auto;
+
+    li {
+      max-width: 412px;
+      color: $introColor;
+
+      strong {
+        position: relative;
+        color: $textColor;
+        top: $spacingBase * -0.5;
+      }
+    }
+  }
+}

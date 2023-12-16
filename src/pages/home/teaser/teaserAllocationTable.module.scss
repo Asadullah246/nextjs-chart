@@ -1,0 +1,35 @@
+@import "lib/scss/shared";
+
+// Without tableContainer, the table breaks on Safari and exceeds it's parent width.
+
+.tableContainer {
+  width: auto;
+  flex-grow: 1;
+}
+
+.table {
+  width: 100%;
+  flex: 1;
+
+  tbody td,
+  tfoot td {
+    border-top: $sandyPearlBush 1px solid;
+    padding: 6px 3.5px 3px;
+  }
+
+  svg {
+    margin-left: 3px;
+  }
+}
+
+.disabledRow {
+  color: $alto;
+}
+
+.bullet {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: $spacingBase * 1;
+}

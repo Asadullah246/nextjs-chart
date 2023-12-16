@@ -1,0 +1,444 @@
+{
+  "id": "pillar_3a",
+  "label": "Pillar 3a",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "display_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Display Name"
+        }
+      },
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": null,
+          "choices": {
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            },
+            "intro": {
+              "type": "Slice",
+              "fieldset": "Intro",
+              "description": "Introduction text",
+              "icon": "text_fields",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "advantages_title": {
+                  "type": "StructuredText",
+                  "config": { "single": "heading2", "label": "Advantages Title" }
+                },
+                "save_taxes": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Save Taxes"
+                  }
+                },
+                "holistic": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Holistic"
+                  }
+                },
+                "no_fees": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "No Fees"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "explanation": {
+              "type": "Slice",
+              "fieldset": "Explanation",
+              "description": "What is Pillar 3a?",
+              "icon": "live_help",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": { "single": "heading2", "label": "Title" }
+                },
+                "advantages": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Advantages"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "automatic_investments": {
+              "type": "Slice",
+              "fieldset": "Automatic Investments",
+              "description": "Feature description",
+              "icon": "adb",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "auto_top_up_title": { "type": "Text", "config": { "label": "Auto top-up title" } },
+                "auto_top_up_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Auto top-up description"
+                  }
+                },
+                "auto_top_up_image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": { "width": 1560, "height": 752 },
+                    "thumbnails": [{ "name": "mobile", "width": 750, "height": 932 }],
+                    "label": "Auto top-up image"
+                  }
+                },
+                "holistic_title": { "type": "Text", "config": { "label": "Holistic Title" } },
+                "holistic_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Holistic description"
+                  }
+                },
+                "holistic_image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": { "width": 1415, "height": 886 },
+                    "thumbnails": [{ "name": "mobile", "width": 862, "height": 1042 }],
+                    "label": "Holistic image"
+                  }
+                },
+                "save_taxes_title": { "type": "Text", "config": { "label": "Save taxes title" } },
+                "save_taxes_description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Save taxes description"
+                  }
+                },
+                "save_taxes_image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": { "width": 1440, "height": 768 },
+                    "thumbnails": [{ "name": "mobile", "width": 750, "height": 594 }],
+                    "label": "Save taxes image"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "leading_robo_advisor": {
+              "type": "Slice",
+              "fieldset": "Leading Robo-Advisor",
+              "description": "The leading swiss robo advisor",
+              "icon": "rowing",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "clients": { "type": "Text", "config": { "label": "Clients" } },
+                "aum": { "type": "Text", "config": { "label": "AUM" } },
+                "award_winning": { "type": "Text", "config": { "label": "Award winning" } },
+                "customer_support": { "type": "Text", "config": { "label": "Customer support" } },
+                "no_lock_in": { "type": "Text", "config": { "label": "No lock-in" } },
+                "open_account": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Open Account"
+                  }
+                },
+                "open_account_link_text": {
+                  "type": "Text",
+                  "config": { "label": "Open Account Link Text" }
+                }
+              },
+              "repeat": {}
+            },
+            "free_of_charge": {
+              "type": "Slice",
+              "fieldset": "Free of charge",
+              "description": "Pillar 3a free of charge",
+              "icon": "money_off",
+              "display": "list",
+              "non-repeat": {
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                },
+                "hint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Hint"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "automatically_stagger": {
+              "type": "Slice",
+              "fieldset": "Automatically stagger",
+              "description": "Automatically stagger",
+              "icon": "add_to_photos",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "open_account": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Open Account"
+                  }
+                },
+                "open_account_link_text": {
+                  "type": "Text",
+                  "config": { "label": "Open Account Link Text" }
+                }
+              },
+              "repeat": {
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                }
+              }
+            },
+            "comparison": {
+              "type": "Slice",
+              "fieldset": "Comparison",
+              "description": "Competitor comparison",
+              "icon": "hdr_strong",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "hint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Hint"
+                  }
+                },
+                "fee_label": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Fee Label"
+                  }
+                },
+                "tw_fee_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "TW Fee Text"
+                  }
+                },
+                "competitor_fee_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Competitor Fee Text"
+                  }
+                },
+                "competitor_fee_tooltip": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Competitor Fee Tooltip"
+                  }
+                },
+                "interests_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Interests Text"
+                  }
+                },
+                "tw_interests_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "TW Interests Text"
+                  }
+                },
+                "competitor_interests_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Competitor Interests Text"
+                  }
+                },
+                "competitor_interests_tooltip": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Competitor Interests Tooltip"
+                  }
+                }
+              },
+              "repeat": {
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Text"
+                  }
+                },
+                "tooltip": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Tooltip"
+                  }
+                },
+                "true_wealth": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "No",
+                    "placeholder_true": "Yes",
+                    "default_value": true,
+                    "label": "True Wealth"
+                  }
+                },
+                "competitor": {
+                  "type": "Boolean",
+                  "config": {
+                    "placeholder_false": "No",
+                    "placeholder_true": "Yes",
+                    "default_value": false,
+                    "label": "Competitor"
+                  }
+                }
+              }
+            },
+            "faq": {
+              "type": "Slice",
+              "fieldset": "FAQ",
+              "description": "Frequently asked questions",
+              "icon": "record_voice_over",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "more_button_label": { "type": "Text", "config": { "label": "More button label" } }
+              },
+              "repeat": {
+                "faq_item": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["faq_item"],
+                    "label": "FAQ Item"
+                  }
+                }
+              }
+            },
+            "tax_savings_calculator": {
+              "type": "Slice",
+              "fieldset": "Tax savings calculator",
+              "description": "Tax savings calculator",
+              "icon": "control_point",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading3",
+                    "label": "title",
+                    "placeholder": "Your tax saving potential"
+                  }
+                },
+                "subtitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "subtitle",
+                    "placeholder": "Don't miss out on any Pillar 3a tax benefits!"
+                  }
+                },
+                "disclaimer": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "disclaimer",
+                    "placeholder": "The 3a calculator was updated..."
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

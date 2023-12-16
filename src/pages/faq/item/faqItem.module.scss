@@ -1,0 +1,28 @@
+@import "lib/scss/shared";
+
+.intro {
+  @include typography($typographyPMedium);
+
+  margin-top: $spacingBase * 5;
+  margin-bottom: $spacingBase * 15;
+}
+
+.items {
+  a {
+    display: block;
+    color: $tobaccoBrown;
+    text-decoration: none;
+    font-weight: $fontWeightRegular;
+    border-top: $dawnPink 1px solid;
+    padding: $spacingBase * 1.5;
+
+    &:last-child {
+      border-bottom: $dawnPink 1px solid;
+    }
+
+    &:hover,
+    &:focus {
+      color: $linkHoverColor;
+    }
+  }
+}

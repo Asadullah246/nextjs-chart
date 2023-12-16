@@ -1,0 +1,83 @@
+[
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 53600,
+    "Zusätzlich %": 1.1
+  },
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 53600,
+    "Zusätzlich %": 1.3
+  },
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 9999999999,
+    "Zusätzlich %": 1.7
+  },
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern (nicht im Konkubinat)",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 53600,
+    "Zusätzlich %": 0.9
+  },
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern (nicht im Konkubinat)",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 53600,
+    "Zusätzlich %": 1.1
+  },
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern (nicht im Konkubinat)",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 9999999999,
+    "Zusätzlich %": 1.3
+  },
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 53200,
+    "Zusätzlich %": 1.1
+  },
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 53200,
+    "Zusätzlich %": 1.3
+  },
+  {
+    "Kantons-Id": "26",
+    "Kanton": "JU",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend mit Kindern im Konkubinat",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 9999999999,
+    "Zusätzlich %": 1.7
+  }
+]

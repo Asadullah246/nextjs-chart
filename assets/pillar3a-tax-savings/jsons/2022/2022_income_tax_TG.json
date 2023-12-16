@@ -1,0 +1,92 @@
+[
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 11700,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 14000,
+    "Zusätzlich %": 3,
+    "Grundbetrag CHF": 46
+  },
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 16000,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 106
+  },
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 18000,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 186
+  },
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 20000,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 286
+  },
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 35000,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 1186
+  },
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 80000,
+    "Zusätzlich %": 7.5,
+    "Grundbetrag CHF": 4336
+  },
+  {
+    "Kantons-Id": "20",
+    "Kanton": "TG",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 150000,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 9586
+  }
+]

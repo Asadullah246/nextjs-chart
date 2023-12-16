@@ -1,0 +1,102 @@
+[
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 10000,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 20000,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 800
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 30000,
+    "Zusätzlich %": 13,
+    "Grundbetrag CHF": 1900
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 50000,
+    "Zusätzlich %": 15,
+    "Grundbetrag CHF": 4500
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 100000,
+    "Zusätzlich %": 16,
+    "Grundbetrag CHF": 12000
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 150000,
+    "Zusätzlich %": 17.5,
+    "Grundbetrag CHF": 20000
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 250000,
+    "Zusätzlich %": 19,
+    "Grundbetrag CHF": 37500
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 400000,
+    "Zusätzlich %": 21,
+    "Grundbetrag CHF": 66000
+  },
+  {
+    "Kantons-Id": "8",
+    "Kanton": "GL",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 450000,
+    "Zusätzlich %": 17,
+    "Grundbetrag CHF": 76500
+  }
+]

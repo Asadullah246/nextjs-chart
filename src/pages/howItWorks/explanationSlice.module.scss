@@ -1,0 +1,101 @@
+@import "lib/scss/shared";
+
+$contentGap: $spacingBase * 15;
+
+.container {
+  max-width: 524px;
+
+  @include media-breakpoint-up(xxl) {
+    max-width: 1530px;
+  }
+}
+
+.contentWrapper {
+  @include typography($typographyPBig);
+
+  @include media-breakpoint-up(xxl) {
+    display: flex;
+  }
+
+  strong {
+    font-weight: $fontWeightMedium;
+  }
+
+  .leftContent,
+  .rightContent {
+    position: relative;
+
+    @include media-breakpoint-up(xxl) {
+      width: 50%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 1px;
+      background-color: $sandyBackgroundColor;
+
+      @include media-breakpoint-up(sm) {
+        left: -$contentGap;
+        right: -$contentGap;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        content: none;
+      }
+    }
+  }
+
+  .leftContent {
+    padding-bottom: $contentGap * 0.5;
+
+    @include media-breakpoint-up(sm) {
+      padding-bottom: $contentGap;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      padding: $spacingBase * 3 $contentGap;
+      border-right: $sandyBackgroundColor 1px solid;
+    }
+
+    ol {
+      margin-bottom: 0;
+    }
+  }
+
+  .rightContent {
+    padding-top: $contentGap * 0.5;
+    padding-bottom: $contentGap * 0.5;
+
+    @include media-breakpoint-up(sm) {
+      padding-top: $contentGap;
+      padding-bottom: $contentGap;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      padding: $spacingBase * 3 $contentGap;
+    }
+
+    a {
+      @include media-breakpoint-down(sm) {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.faq {
+  @include typography($typographyH4);
+
+  margin-top: $spacingBase * 10;
+  text-align: center;
+
+  br {
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+  }
+}

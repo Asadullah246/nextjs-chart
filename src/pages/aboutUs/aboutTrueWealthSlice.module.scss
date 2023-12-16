@@ -1,0 +1,60 @@
+@import "lib/scss/shared";
+
+$largeViewportTextWidth: 580px;
+
+.section {
+  overflow: hidden;
+}
+
+.container {
+  figure > div {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  img {
+    display: block;
+    position: relative;
+    margin: 0 auto -#{get-section-padding(y, xs)};
+    object-fit: contain;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+
+    @include media-breakpoint-up(sm) {
+      margin: 0 auto -#{get-section-padding(y, sm)};
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin: 0 auto -#{get-section-padding(y, lg)};
+    }
+
+    @include media-breakpoint-up(xl) {
+      margin: 0;
+      bottom: 0;
+      left: -$spacingBase * 16;
+      max-width: 65vw;
+      max-height: 600px;
+    }
+  }
+}
+
+.contentWrapper {
+  max-width: $largeViewportTextWidth;
+  margin: 0 auto $spacingBase * 5;
+
+  @include media-breakpoint-up(sm) {
+    text-align: center;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-bottom: $spacingBase * 12;
+    text-align: left;
+  }
+}
+
+.content {
+  @include typography($typographyPBig);
+
+  color: $tobaccoBrown;
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 15965,
+    "Zusätzlich %": 2.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 16995,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 25.75
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 18025,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 66.95
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 19055,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 118.45
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 20085,
+    "Zusätzlich %": 6.5,
+    "Grundbetrag CHF": 180.25
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 21115,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 247.2
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 23175,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 391.4
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 29355,
+    "Zusätzlich %": 8.5,
+    "Grundbetrag CHF": 885.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 33475,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 1236
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 37595,
+    "Zusätzlich %": 9.5,
+    "Grundbetrag CHF": 1606.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 41715,
+    "Zusätzlich %": 10.3,
+    "Grundbetrag CHF": 1998.2
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 62315,
+    "Zusätzlich %": 10.6,
+    "Grundbetrag CHF": 4120
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 82915,
+    "Zusätzlich %": 10.7,
+    "Grundbetrag CHF": 6303.6
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 103515,
+    "Zusätzlich %": 11.2,
+    "Grundbetrag CHF": 8507.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 206515,
+    "Zusätzlich %": 11.3,
+    "Grundbetrag CHF": 20043.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 309515,
+    "Zusätzlich %": 11.4,
+    "Grundbetrag CHF": 31682.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 412515,
+    "Zusätzlich %": 11.6,
+    "Grundbetrag CHF": 43424.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 737480,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 81120.74
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 737481,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 81122.91
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 15965,
+    "Zusätzlich %": 2.5,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 16995,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 25.75
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 18025,
+    "Zusätzlich %": 5,
+    "Grundbetrag CHF": 66.95
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 19055,
+    "Zusätzlich %": 6,
+    "Grundbetrag CHF": 118.45
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 20085,
+    "Zusätzlich %": 6.5,
+    "Grundbetrag CHF": 180.25
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 21115,
+    "Zusätzlich %": 7,
+    "Grundbetrag CHF": 247.2
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 23175,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 391.4
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 29355,
+    "Zusätzlich %": 8.5,
+    "Grundbetrag CHF": 885.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 33475,
+    "Zusätzlich %": 9,
+    "Grundbetrag CHF": 1236
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 37595,
+    "Zusätzlich %": 9.5,
+    "Grundbetrag CHF": 1606.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 41715,
+    "Zusätzlich %": 10.3,
+    "Grundbetrag CHF": 1998.2
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 62315,
+    "Zusätzlich %": 10.6,
+    "Grundbetrag CHF": 4120
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 82915,
+    "Zusätzlich %": 10.7,
+    "Grundbetrag CHF": 6303.6
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 103515,
+    "Zusätzlich %": 11.2,
+    "Grundbetrag CHF": 8507.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 206515,
+    "Zusätzlich %": 11.3,
+    "Grundbetrag CHF": 20043.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 309515,
+    "Zusätzlich %": 11.4,
+    "Grundbetrag CHF": 31682.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 412515,
+    "Zusätzlich %": 11.6,
+    "Grundbetrag CHF": 43424.8
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 737480,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 81120.74
+  },
+  {
+    "Kantons-Id": "18",
+    "Kanton": "GR",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Kapitalauszahlung CHF": 737481,
+    "Zusätzlich %": 11,
+    "Grundbetrag CHF": 81122.91
+  }
+]

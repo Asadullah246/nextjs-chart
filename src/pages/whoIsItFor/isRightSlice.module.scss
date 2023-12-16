@@ -1,0 +1,222 @@
+@import "lib/scss/shared";
+
+$maxWidth: 1396px;
+$maxWidthSmall: 670px;
+
+$cardMarginBottomXXL: $spacingBase * 10;
+$cardMarginLeftXXL: $spacingBase * 10;
+$box1HeightXXL: 457px;
+$box2HeightXXL: 391px;
+$box3HeightXXL: 456px;
+
+// prettier-ignore
+$cardGroupHeightXXL: $box1HeightXXL + $box2HeightXXL + $box3HeightXXL + ($cardMarginBottomXXL * 3) + 1px;
+
+.container {
+  max-width: none;
+
+  @include media-breakpoint-up(xxl) {
+    max-width: $maxWidth;
+  }
+}
+
+.title {
+  text-align: center;
+  margin-bottom: $spacingBase * 5;
+  max-width: $maxWidthSmall;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: $spacingBase * 10;
+  }
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    max-width: $maxWidth;
+  }
+
+  span {
+    display: block;
+
+    @include media-breakpoint-up(md) {
+      display: inline-block;
+    }
+  }
+
+  .icon {
+    display: inline-flex;
+    width: 57px;
+    height: 57px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: $white;
+    margin-bottom: $spacingBase * 5;
+
+    @include media-breakpoint-up(md) {
+      margin-right: $spacingBase * 4;
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      width: 96px;
+      height: 96px;
+    }
+
+    svg {
+      top: 0;
+      width: 28px;
+      height: 16px;
+      color: $primaryColor;
+
+      @include media-breakpoint-up(xxl) {
+        top: 5px;
+        width: 42px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+$cardHorizontalPaddingMD: $spacingBase * 8;
+
+.cardGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include media-breakpoint-up(xxl) {
+    flex-direction: column;
+    height: $cardGroupHeightXXL;
+
+    .card {
+      width: calc(50% - #{$cardHorizontalPaddingMD * 0.5});
+    }
+  }
+}
+
+.box4,
+.box5,
+.box6 {
+  @include media-breakpoint-up(xxl) {
+    margin-left: $cardHorizontalPaddingMD;
+  }
+}
+
+.card {
+  @include typography($typographyPBig);
+
+  padding: $spacingBase * 7;
+
+  @include media-breakpoint-up(md) {
+    padding: $spacingBase * 11 $spacingBase * 8 $spacingBase * 8;
+  }
+
+  &:not(.imageCard) {
+    max-width: $maxWidthSmall;
+  }
+}
+
+.imageCard {
+  position: relative;
+  min-height: 240px;
+  max-height: 449px;
+  margin-left: -$spacingBase * 5;
+  margin-right: -$spacingBase * 5;
+  width: calc(100% + 60px);
+
+  @include media-breakpoint-up(xxl) {
+    margin-left: $cardHorizontalPaddingMD;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    @include media-breakpoint-up(xxl) {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: auto;
+    }
+  }
+}
+
+.card,
+.imageCard {
+  display: inline-block;
+  margin-bottom: $spacingBase * 5;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: $spacingBase * 8;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    margin-bottom: $cardMarginBottomXXL;
+  }
+}
+
+.readyToInvest {
+  margin-top: $spacingBase * 5;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: $spacingBase * 10;
+  }
+}
+
+.box1 {
+  order: 1;
+
+  @include media-breakpoint-up(xxl) {
+    height: $box1HeightXXL;
+  }
+}
+
+.box2 {
+  order: 2;
+
+  @include media-breakpoint-up(xxl) {
+    height: $box2HeightXXL;
+  }
+}
+
+.box3 {
+  order: 3;
+}
+
+.box4 {
+  order: 4;
+
+  @include media-breakpoint-up(xxl) {
+    height: 308px;
+  }
+}
+
+.box5 {
+  order: 2;
+
+  @include media-breakpoint-up(xxl) {
+    order: 5;
+    min-height: 541px;
+    width: auto;
+  }
+}
+
+.box3,
+.box6 {
+  @include media-breakpoint-up(xxl) {
+    height: $box3HeightXXL;
+  }
+}
+
+.box6 {
+  order: 6;
+}

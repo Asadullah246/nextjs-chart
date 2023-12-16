@@ -1,0 +1,28 @@
+@import "lib/scss/shared";
+
+.netReturn {
+  @include typography($typographyPSmall);
+
+  display: inline-block;
+  padding: 2px $spacingBase 0;
+  border-radius: 8px;
+  font-weight: $fontWeightMedium;
+
+  svg {
+    position: relative;
+    top: 1px;
+    margin-right: 3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.positive {
+  background-color: $pistachio;
+  color: $white;
+}
+
+.negative {
+  background-color: $sandyPearlBush;
+  color: $tobaccoBrown;
+}

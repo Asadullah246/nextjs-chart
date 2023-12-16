@@ -1,0 +1,294 @@
+{
+  "id": "child_portfolio",
+  "label": "Child Portfolio",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": { "type": "UID", "config": { "label": "Slug" } },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": null,
+          "choices": {
+            "ready_to_invest": {
+              "type": "Slice",
+              "fieldset": "Ready To Invest",
+              "description": "Account opening teaser",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {},
+              "repeat": {}
+            },
+            "intro": {
+              "type": "Slice",
+              "fieldset": "Intro",
+              "description": "Introduction text",
+              "icon": "text_fields",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "title": {
+                  "type": "StructuredText",
+                  "config": { "single": "heading2", "label": "Title" }
+                },
+                "first": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "First"
+                  }
+                },
+                "second": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Second"
+                  }
+                },
+                "third": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Third"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "summary": {
+              "type": "Slice",
+              "fieldset": "In a nutshell",
+              "description": "Features and more",
+              "icon": "live_help",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": { "single": "heading2", "label": "Title" }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "leading_robo_advisor": {
+              "type": "Slice",
+              "fieldset": "Leading Robo-Advisor",
+              "description": "The leading swiss robo advisor",
+              "icon": "rowing",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "clients": { "type": "Text", "config": { "label": "Clients" } },
+                "aum": { "type": "Text", "config": { "label": "AUM" } },
+                "award_winning": { "type": "Text", "config": { "label": "Award winning" } },
+                "customer_support": { "type": "Text", "config": { "label": "Customer support" } },
+                "no_lock_in": { "type": "Text", "config": { "label": "No lock-in" } },
+                "open_account": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Open Account"
+                  }
+                },
+                "open_account_link_text": {
+                  "type": "Text",
+                  "config": { "label": "Open Account Link Text" }
+                }
+              },
+              "repeat": {}
+            },
+            "investing": {
+              "type": "Slice",
+              "fieldset": "Investing",
+              "description": "Simple & transparent",
+              "icon": "money_off",
+              "display": "list",
+              "non-repeat": {
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "child_owner": {
+              "type": "Slice",
+              "fieldset": "Child's portfolio",
+              "description": "On behalf of the child",
+              "icon": "add_to_photos",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "open_account": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Open Account"
+                  }
+                },
+                "open_account_link_text": {
+                  "type": "Text",
+                  "config": { "label": "Open Account Link Text" }
+                }
+              },
+              "repeat": {
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Content"
+                  }
+                }
+              }
+            },
+            "faq": {
+              "type": "Slice",
+              "fieldset": "FAQ",
+              "description": "Frequently asked questions",
+              "icon": "record_voice_over",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "more_button_label": { "type": "Text", "config": { "label": "More button label" } }
+              },
+              "repeat": {
+                "faq_item": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["faq_item"],
+                    "label": "FAQ Item"
+                  }
+                }
+              }
+            },
+            "head_start": {
+              "type": "Slice",
+              "fieldset": "Head start",
+              "description": "A head start for life",
+              "icon": "accessibility",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "first": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "First"
+                  }
+                },
+                "second": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Second"
+                  }
+                },
+                "third": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Third"
+                  }
+                },
+                "hint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Hint"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "performance": {
+              "type": "Slice",
+              "fieldset": "Rendite",
+              "description": "Rendite statt Mini-Zinsen",
+              "icon": "attach_money",
+              "display": "list",
+              "non-repeat": {
+                "intro": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Intro"
+                  }
+                },
+                "chart_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Chart Title"
+                  }
+                },
+                "hint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Hint"
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seo_title": { "type": "Text", "config": { "label": "Title" } },
+      "seo_description": { "type": "Text", "config": { "label": "Description" } },
+      "social_media_image": {
+        "type": "Image",
+        "config": { "constraint": {}, "thumbnails": [], "label": "Social Media Image" }
+      }
+    },
+    "Tracking": {
+      "doubleclick_type": { "type": "Text", "config": { "label": "Doubleclick Type" } },
+      "doubleclick_cat": { "type": "Text", "config": { "label": "Doubleclick Category" } }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

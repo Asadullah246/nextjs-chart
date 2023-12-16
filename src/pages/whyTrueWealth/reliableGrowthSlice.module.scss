@@ -1,0 +1,24 @@
+@import "lib/scss/shared";
+@import "src/pages/whyTrueWealth/cardGroup.module";
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $spacingBase * 4;
+
+  @include media-breakpoint-up(xl) {
+    margin-bottom: $spacingBase * 8;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.cardGroup {
+  @extend %card-group;
+}
+
+.card {
+  @extend %card;
+}

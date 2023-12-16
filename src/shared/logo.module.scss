@@ -1,0 +1,10 @@
+@import "lib/scss/shared";
+
+.logo {
+  // Make alt text invisible in case loading of the image takes some time
+  color: transparent;
+
+  svg {
+    @include logo();
+  }
+}

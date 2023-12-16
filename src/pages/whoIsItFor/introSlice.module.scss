@@ -1,0 +1,14 @@
+@import "lib/scss/shared";
+
+.container {
+  @include media-breakpoint-up(sm) {
+    text-align: center;
+  }
+
+  p {
+    @include typography($typographyPBig);
+
+    color: $introColor;
+    margin-bottom: $spacingBase * 4 !important;
+  }
+}

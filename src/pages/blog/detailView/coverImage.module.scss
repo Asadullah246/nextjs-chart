@@ -1,0 +1,67 @@
+@import "lib/scss/shared";
+
+.coverImage {
+  position: relative;
+  margin-bottom: $spacingBase * 5;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: $spacingBase * 10;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-bottom: $galleryBorderColor 1px solid;
+  }
+}
+
+.coverImageText {
+  @include typography($typographyH3);
+
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: $spacingBase * 4 auto (-$spacingBase);
+  padding: 0 $spacingBase * 4 $spacingBase * 2;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: $spacingBase * 4;
+    right: $spacingBase * 4;
+    bottom: 0;
+    height: 1px;
+    background-color: $blogDetailCoverImageBackgroundColor;
+  }
+
+  /* stylelint-disable-next-line */
+  @include media-breakpoint-up(md) {
+    padding: 0 0 $spacingBase * 4;
+    margin: $spacingBase * 6 auto (-$spacingBase * 3);
+
+    &::before {
+      left: 0;
+      right: 0;
+    }
+  }
+
+  div {
+    @include typography($typographyPBig);
+
+    margin-top: $spacingBase * 2;
+  }
+}
+
+.coverImageOverlayText {
+  @include typography($typographyH1);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: $blogDetailViewImageBackgroundTextColor;
+  min-width: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  letter-spacing: 0;
+  font-weight: $fontWeightMedium;
+}

@@ -1,0 +1,18 @@
+@import "lib/scss/shared";
+
+.container {
+  overflow: hidden;
+  position: absolute;
+  inset: 0;
+}
+
+.imageWrapper {
+  @include get-z-index(section-background-image);
+
+  user-select: none;
+  position: absolute;
+
+  &.inverse {
+    transform: scaleX(-1);
+  }
+}

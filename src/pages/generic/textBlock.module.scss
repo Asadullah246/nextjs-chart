@@ -1,0 +1,10 @@
+@import "lib/scss/shared";
+
+.block {
+  padding: $spacingBase * 3;
+  word-break: break-word;
+
+  @include media-breakpoint-up(sm) {
+    padding: $spacingBase * 10;
+  }
+}

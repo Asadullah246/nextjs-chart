@@ -1,0 +1,62 @@
+[
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 21.75,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 201500,
+    "Zusätzlich %": 28,
+    "Grundbetrag CHF": 43826.25
+  },
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alleinstehend ohne Kinder",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 300000,
+    "Zusätzlich %": 29,
+    "Grundbetrag CHF": 71406.25
+  },
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 21.75,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 403100,
+    "Zusätzlich %": 28,
+    "Grundbetrag CHF": 87674.25
+  },
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Verheiratet / Alleinstehend mit Kindern",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 600000,
+    "Zusätzlich %": 29,
+    "Grundbetrag CHF": 142806.25
+  }
+]

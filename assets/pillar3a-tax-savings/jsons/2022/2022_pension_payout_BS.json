@@ -1,0 +1,38 @@
+[
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 25000,
+    "Zusätzlich %": 3
+  },
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 25000,
+    "Zusätzlich %": 4
+  },
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 50000,
+    "Zusätzlich %": 6
+  },
+  {
+    "Kantons-Id": "12",
+    "Kanton": "BS",
+    "Steuerart": "Kapitalleistung aus beruflicher Vorsorge",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Für die nächsten CHF": 99999999,
+    "Zusätzlich %": 8
+  }
+]

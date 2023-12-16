@@ -1,0 +1,63 @@
+@import "lib/scss/shared";
+@import "src/core/list.module";
+@import "src/pages/whyTrueWealth/cardGroup.module";
+
+.section {
+  @include media-breakpoint-up(xl) {
+    margin-top: 100px;
+  }
+}
+
+.cardGroup {
+  @extend %card-group;
+}
+
+.card {
+  @extend %card;
+
+  ul {
+    @extend %tick;
+
+    margin-top: $spacingBase * 9;
+    font-weight: $fontWeightMedium;
+    columns: 1;
+  }
+}
+
+.custodianBanksContent {
+  p:last-child {
+    margin-bottom: $spacingBase * 8;
+  }
+}
+
+.bankContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: $spacingBase * 8;
+
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+
+    p {
+      width: 320px;
+      padding-left: $spacingBase * 5;
+    }
+  }
+
+  img {
+    margin: $spacingBase * 2 0 $spacingBase * 2 0;
+  }
+}
+
+$largerImageWidth: 126px;
+
+.imageContainer {
+  display: flex;
+  width: $largerImageWidth;
+
+  @include media-breakpoint-up(md) {
+    justify-content: center;
+    margin-top: -9px;
+  }
+}

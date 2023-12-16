@@ -1,0 +1,49 @@
+@import "lib/scss/shared";
+
+.container {
+  @include typography($typographyPBig);
+
+  max-width: 1330px;
+  color: $introColor;
+
+  h2,
+  strong {
+    color: $textColor;
+  }
+
+  strong {
+    font-weight: $fontWeightMedium;
+  }
+
+  ul {
+    @include typography($typographyPMedium);
+
+    list-style: none;
+    margin: 0;
+
+    li {
+      border-left: $pearlBush 1px solid;
+      padding-left: $spacingBase * 4;
+      margin: $spacingBase * 6 0;
+
+      @include media-breakpoint-up(sm) {
+        padding-left: $spacingBase * 6;
+      }
+    }
+  }
+}
+
+.grid {
+  display: flex;
+
+  .imageContainer {
+    flex-shrink: 0;
+    position: relative;
+    width: 495px;
+    height: 640px;
+
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
+  }
+}

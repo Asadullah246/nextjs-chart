@@ -1,0 +1,252 @@
+[
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 0,
+    "Zusätzlich %": 0,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 7500,
+    "Zusätzlich %": 2,
+    "Grundbetrag CHF": 0
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 10000,
+    "Zusätzlich %": 4,
+    "Grundbetrag CHF": 50
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 15000,
+    "Zusätzlich %": 8,
+    "Grundbetrag CHF": 250
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 20000,
+    "Zusätzlich %": 11.6,
+    "Grundbetrag CHF": 650
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 30000,
+    "Zusätzlich %": 11.9,
+    "Grundbetrag CHF": 1810
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 40000,
+    "Zusätzlich %": 12.3,
+    "Grundbetrag CHF": 3000
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 50000,
+    "Zusätzlich %": 12.8,
+    "Grundbetrag CHF": 4230
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 60000,
+    "Zusätzlich %": 13.3,
+    "Grundbetrag CHF": 5510
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 70000,
+    "Zusätzlich %": 13.8,
+    "Grundbetrag CHF": 6840
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 80000,
+    "Zusätzlich %": 14.2,
+    "Grundbetrag CHF": 8220
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 90000,
+    "Zusätzlich %": 14.5,
+    "Grundbetrag CHF": 9640
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 100000,
+    "Zusätzlich %": 14.8,
+    "Grundbetrag CHF": 11090
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 110000,
+    "Zusätzlich %": 15.1,
+    "Grundbetrag CHF": 12570
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 120000,
+    "Zusätzlich %": 15.4,
+    "Grundbetrag CHF": 14080
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 130000,
+    "Zusätzlich %": 15.5,
+    "Grundbetrag CHF": 15620
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 140000,
+    "Zusätzlich %": 15.6,
+    "Grundbetrag CHF": 17170
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 150000,
+    "Zusätzlich %": 15.7,
+    "Grundbetrag CHF": 18730
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 160000,
+    "Zusätzlich %": 15.9,
+    "Grundbetrag CHF": 20300
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 170000,
+    "Zusätzlich %": 16.1,
+    "Grundbetrag CHF": 21890
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 180000,
+    "Zusätzlich %": 16.2,
+    "Grundbetrag CHF": 23500
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 190000,
+    "Zusätzlich %": 16.2,
+    "Grundbetrag CHF": 25120
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 200000,
+    "Zusätzlich %": 13.5,
+    "Grundbetrag CHF": 26740
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 300000,
+    "Zusätzlich %": 13.75,
+    "Grundbetrag CHF": 40240
+  },
+  {
+    "Kantons-Id": "24",
+    "Kanton": "NE",
+    "Steuerart": "Einkommen",
+    "Steuersubjekt": "Alle",
+    "Steuerhoheit": "Kanton",
+    "Steuerbares Einkommen CHF": 400000,
+    "Zusätzlich %": 14,
+    "Grundbetrag CHF": 53990
+  }
+]
