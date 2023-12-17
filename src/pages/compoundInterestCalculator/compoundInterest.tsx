@@ -33,8 +33,10 @@ const CompoundInterest = () => {
 
         ],
       },
+
       {
         id: 'ZeroYield',
+        color: '#122033',   
         data: [
           { x: 1, y: 1 },
           {  y: values.totalDeposit },
@@ -58,7 +60,7 @@ const CompoundInterest = () => {
         <div className="w-full md:w-4/12">
         <CompoundInterestForm onValuesChange={handleValuesChange} />
         </div>
-        <div className="w-full md:w-8/12  bg-white shadow-sm"> 
+        <div className="w-full md:w-8/12  bg-white shadow-sm">
         <CompoundInterestChart chartData={chartData} />
         </div>
 
