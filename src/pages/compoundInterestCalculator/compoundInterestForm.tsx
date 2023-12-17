@@ -1,9 +1,9 @@
-import {Slider} from "src/core/slider";
-import {SliderLarge} from "src/core/largeNumberSlider";
-import React, {useState, useEffect} from 'react';
+import { Slider } from "src/core/slider";
+import { SliderLarge } from "src/core/largeNumberSlider";
+import React, { useState, useEffect } from 'react';
 
 interface CompoundInterestFormProps {
-    onValuesChange : (values : {
+    onValuesChange: (values: {
         type: string;
         rate: number;
         principal: number;
@@ -15,27 +15,27 @@ interface CompoundInterestFormProps {
     }) => void;
 }
 
-const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValuesChange}) => {
+const CompoundInterestForm: React.FC<CompoundInterestFormProps> = ({ onValuesChange }) => {
     const [type,
-        setType] = useState < string > ('TW Portfolio');
+        setType] = useState<string>('TW Portfolio');
     const [rate,
-        setRate] = useState < number > (0);
+        setRate] = useState<number>(0);
     const [principal,
-        setPrincipal] = useState < number > (10000);
+        setPrincipal] = useState<number>(10000);
     const [time,
-        setTime] = useState < number > (5);
+        setTime] = useState<number>(5);
     const [compoundInterest,
-        setCompoundInterest] = useState < number > (0);
+        setCompoundInterest] = useState<number>(0);
     const [savingsRate,
-        setSavingsRate] = useState < number > (150);
+        setSavingsRate] = useState<number>(150);
     const [newPrincipal,
-        setNewPrincipal] = useState < number > (0);
+        setNewPrincipal] = useState<number>(0);
     const [totalDeposit,
-        setTotalDeposit] = useState < number > (0);
+        setTotalDeposit] = useState<number>(0);
     const [amountOfYield,
-        setAmountOfYield] = useState < number > (0);
+        setAmountOfYield] = useState<number>(0);
     const [zeroYield,
-        setZeroYield] = useState < number > (0);
+        setZeroYield] = useState<number>(0);
 
     useEffect(() => {
         calculateCompoundInterest();
@@ -107,7 +107,7 @@ const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValues
                             min={0}
                             max={100000}
                             step={1000}
-                            onChange={(value : any) => setPrincipal(value)}/>
+                            onChange={(value: any) => setPrincipal(value)} />
 
                     </div>
 
@@ -121,10 +121,10 @@ const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValues
                                     value="TW Portfolio"
                                     checked={type === 'TW Portfolio'}
                                     onChange={() => {
-                                    setType('TW Portfolio');
-                                    calculateCompoundInterest();
-                                }}
-                                    className="rounded-full w-4 h-4"/>
+                                        setType('TW Portfolio');
+                                        calculateCompoundInterest();
+                                    }}
+                                    className="rounded-full w-4 h-4" />
 
                                 <p className="ml-4">True Wealth Musterportfolio</p>
                                 <h3 className="ml-auto">5%</h3>
@@ -137,10 +137,10 @@ const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValues
                                     value="High Yield Savings"
                                     checked={type === 'High Yield Savings'}
                                     onChange={() => {
-                                    setType('High Yield Savings');
-                                    calculateCompoundInterest();
-                                }}
-                                    className="rounded-full w-3 h-3"/>
+                                        setType('High Yield Savings');
+                                        calculateCompoundInterest();
+                                    }}
+                                    className="rounded-full w-3 h-3" />
                                 <p className="ml-4">Hochzins Sparkonto</p>
                                 <h3 className="ml-auto">3%</h3>
                             </div>
@@ -151,10 +151,10 @@ const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValues
                                     value="Fixed Deposit"
                                     checked={type === 'Fixed Deposit'}
                                     onChange={() => {
-                                    setType('Fixed Deposit');
-                                    calculateCompoundInterest();
-                                }}
-                                    className="rounded-full w-3 h-3"/>
+                                        setType('Fixed Deposit');
+                                        calculateCompoundInterest();
+                                    }}
+                                    className="rounded-full w-3 h-3" />
                                 <p className="ml-4">Festgeld</p>
                                 <h3 className="ml-auto">1%</h3>
                             </div>
@@ -165,10 +165,10 @@ const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValues
                                     value="Call Money"
                                     checked={type === 'Call Money'}
                                     onChange={() => {
-                                    setType('Call Money');
-                                    calculateCompoundInterest();
-                                }}
-                                    className="rounded-full w-3 h-3"/>
+                                        setType('Call Money');
+                                        calculateCompoundInterest();
+                                    }}
+                                    className="rounded-full w-3 h-3" />
                                 <p className="ml-4">Tagesgeld</p>
                                 <h3 className="ml-auto">0,5%</h3>
                             </div>
@@ -179,20 +179,20 @@ const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValues
                                     type="text"
                                     value={rate + '%'}
                                     onChange={(e) => {
-                                    const inputValue = e.target.value;
-                                    const normalizedInput = inputValue.replace(/,/g, '.');
-                                    const validatedInput = normalizedInput.replace(/[^0-9.]/g, '');
-                                    const truncatedInput = validatedInput.slice(0, 3);
-                                    const newRate = truncatedInput === ''
-                                        ? 0
-                                        : parseFloat(truncatedInput);
-                                    setRate(isNaN(newRate)
-                                        ? 0
-                                        : newRate);
-                                    setType('Custom');
-                                    calculateCompoundInterest();
-                                }}
-                                    className="w-16 ml-auto"/>
+                                        const inputValue = e.target.value;
+                                        const normalizedInput = inputValue.replace(/,/g, '.');
+                                        const validatedInput = normalizedInput.replace(/[^0-9.]/g, '');
+                                        const truncatedInput = validatedInput.slice(0, 3);
+                                        const newRate = truncatedInput === ''
+                                            ? 0
+                                            : parseFloat(truncatedInput);
+                                        setRate(isNaN(newRate)
+                                            ? 0
+                                            : newRate);
+                                        setType('Custom');
+                                        calculateCompoundInterest();
+                                    }}
+                                    className="w-16 ml-auto" />
 
                             </div>
 
@@ -210,7 +210,7 @@ const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValues
                         max={10000}
                         step={100}
                         value={savingsRate}
-                        onChange={(value : any) => setSavingsRate(value)}/>
+                        onChange={(value: any) => setSavingsRate(value)} />
 
                     <Slider
                         ariaLabelForHandle="Age slider"
@@ -219,9 +219,9 @@ const CompoundInterestForm : React.FC < CompoundInterestFormProps > = ({onValues
                         max={50}
                         value={time}
                         step={1}
-                        onChange={(value : any) => setTime(value)}
+                        onChange={(value: any) => setTime(value)}
                         labelValue={time}
-                        labelValueSuffix="Jahre"/>
+                        labelValueSuffix="Jahre" />
 
                     <div>
                         <h4 className="font-bold">Compound Interest</h4>
