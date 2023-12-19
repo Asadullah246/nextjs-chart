@@ -12,49 +12,7 @@ const CompoundInterest = () => {
   const [amountOfYield, setAmountOfYield] = useState<number>(0);
   const [zeroYield, setZeroYield] = useState<number>(0);
 
-  const [chartData, setChartData] = useState<any[]>(
-    [
-
-      {
-        "id": "ZeroYield",
-        "color": "hsl(52, 70%, 50%)",
-        "data": [
-          {
-            "x": 5,
-            "y": 2
-          },
-          {
-            "x": 13,
-            "y": 15
-          },
-          {
-            "x": 25,
-            "y": 60
-          }
-        ]
-      },
-      {
-        "id": "Endkapital",
-        "color": "hsl(120, 100%, 50%)",
-        "data": [
-          {
-            "x": 0,
-            "y": 7
-          },
-          {
-            "x": 20,
-            "y": 30
-          },
-          {
-            "x": 32,
-            "y": 80
-          },
-
-        ]
-      },
-
-    ]
-  )
+  const [chartData, setChartData] = useState<any[]>([])
 
   const [time, setTime] = useState<number>(0);
 
@@ -65,7 +23,9 @@ const CompoundInterest = () => {
     setZeroYield(values.zeroYield);
     setTime(values.time);
 
-
+    console.log("totaldeposit", values.totalDeposit);
+    console.log("new principa", values.newPrincipal);
+    console.log("time", values.time);
     setChartData(
       [
 
@@ -75,17 +35,10 @@ const CompoundInterest = () => {
           "data": [
             {
               "x": 0,
-              "y": 2
+              "y": 0
             },
-            {
-              "x": 13,
-              "y": 15
-            },
-            {
-              "x": 35,
-              "y": 60
-            },
-            {"x":40,  y: values.totalDeposit }
+
+            { "x": values.time, y: values.totalDeposit }
           ]
         },
         {
@@ -94,16 +47,8 @@ const CompoundInterest = () => {
           "data": [
             {
               "x": 0,
-              "y": 7
-            },
-            {
-              "x": 13,
-              "y": 30
-            },
-            {
-              "x": 35,
-              "y": 80
-            },
+              "y": 0
+            }, 
             { "x": values.time, y: values.newPrincipal }
 
           ]
@@ -136,7 +81,7 @@ const CompoundInterest = () => {
           <CompoundInterestForm onValuesChange={handleValuesChange} />
         </div>
         <div className="w-full md:w-8/12  bg-white shadow-sm">
-          <CompoundInterestChart chartData={chartData}  />
+          <CompoundInterestChart chartData={chartData} />
         </div>
 
 
